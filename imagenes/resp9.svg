@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 267.12 148.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ecd9cb;
+        font-family: Neulis-Black, Neulis;
+        font-size: 30.97px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #e86221;
+      }
+
+      .cls-5 {
+        fill: #e8e6df;
+        font-family: DelaGothicOne-Regular, 'Dela Gothic One';
+        font-size: 38.15px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: #f0f;
+        stroke-width: 3px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g>
+        <g>
+          <path class="cls-4" d="M235.22,147.2L10.14,94.26C3.77,92.77,.12,85.07,1.99,77.1L16.96,13.48C18.83,5.52,25.53,.26,31.9,1.75l225.08,52.94c6.37,1.5,10.02,9.19,8.15,17.16l-14.96,63.62c-1.87,7.96-8.58,13.22-14.94,11.73Z"/>
+          <path class="cls-7" d="M235.22,147.2L10.14,94.26C3.77,92.77,.12,85.07,1.99,77.1L16.96,13.48C18.83,5.52,25.53,.26,31.9,1.75l225.08,52.94c6.37,1.5,10.02,9.19,8.15,17.16l-14.96,63.62c-1.87,7.96-8.58,13.22-14.94,11.73Z"/>
+        </g>
+        <text class="cls-5" transform="translate(35.92 81.73) rotate(13.24)"><tspan class="cls-2" x="0" y="0">T</tspan><tspan x="32.77" y="0">ARDE!</tspan></text>
+      </g>
+      <text class="cls-1" transform="translate(70.41 44.96) rotate(12.84)"><tspan x="0" y="0">b</tspan><tspan class="cls-3" x="19.36" y="0">u</tspan><tspan x="38.04" y="0">r</tspan><tspan class="cls-8" x="56.53" y="0">r</tspan><tspan x="74.71" y="0">o </tspan><tspan class="cls-6" x="99.52" y="0">d</tspan><tspan x="119.28" y="0">e</tspan></text>
+    </g>
+  </g>
+</svg>

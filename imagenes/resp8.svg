@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246.04 138.46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9bd10;
+      }
+
+      .cls-2 {
+        fill: #010101;
+        font-family: DelaGothicOne-Regular, 'Dela Gothic One';
+        font-size: 42.38px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        font-family: Neulis-Black, Neulis;
+        font-size: 30.97px;
+        font-weight: 800;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #010101;
+        stroke-width: 1.44px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g>
+        <g>
+          <ellipse class="cls-1" cx="123.02" cy="69.23" rx="123.51" ry="68.33" transform="translate(-6.73 13.64) rotate(-6.18)"/>
+          <path class="cls-6" d="M106.52,135.58c-56.59,0-100.09-22.45-103.44-53.37-1.85-17.06,8.65-34.55,29.56-49.26C54.06,17.88,83.66,7.66,115.98,4.16c7.87-.85,15.79-1.28,23.53-1.28,56.59,0,100.09,22.45,103.44,53.37,1.85,17.06-8.65,34.55-29.56,49.26-21.41,15.06-51.01,25.29-83.33,28.78-7.87,.85-15.79,1.28-23.54,1.28Z"/>
+        </g>
+        <text class="cls-2" transform="translate(30.85 104.31) rotate(-6.18)"><tspan x="0" y="0">NOCHE</tspan></text>
+      </g>
+      <text class="cls-5" transform="translate(57.1 55.61) rotate(-7.07)"><tspan class="cls-3" x="0" y="0">l</tspan><tspan x="15.08" y="0">oba </tspan><tspan class="cls-4" x="78.86" y="0">d</tspan><tspan x="98.62" y="0">e</tspan></text>
+    </g>
+  </g>
+</svg>

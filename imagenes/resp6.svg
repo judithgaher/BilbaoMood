@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254.13 93.26">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #0019f9;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-8 {
+        fill: #ffc600;
+        font-family: Neulis-ExtraBold, Neulis;
+        font-size: 34.63px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <path class="cls-2" d="M209.9,0c-14.98,0-25.67,6.02-33.13,12.69-7.47-6.67-18.16-12.69-33.13-12.69s-25.67,6.02-33.13,12.69C103.03,6.02,92.34,0,77.37,0s-25.66,6.02-33.13,12.69C36.77,6.02,26.08,0,11.1,0c-.04,0-.08,0-.12,0C4.88,.02,0,5.09,0,11.19c0,14.8,0,42.93,0,52.93,0,2.42,.77,4.77,2.23,6.7,6.78,8.96,19.59,22.44,42,22.44,14.97,0,25.66-6.02,33.13-12.68,7.47,6.67,18.16,12.68,33.13,12.68s25.67-6.02,33.13-12.69c7.47,6.67,18.16,12.69,33.13,12.69s25.67-6.02,33.14-12.69c7.47,6.67,18.16,12.69,33.14,12.69h.11c6.04-.01,10.99-4.96,10.99-11.01V29.15c0-2.42-.77-4.78-2.23-6.71C245.12,13.48,232.31,0,209.9,0Z"/>
+    <text class="cls-8" transform="translate(41.9 59.01) rotate(.05)"><tspan x="0" y="0">c</tspan><tspan class="cls-4" x="20.53" y="0">u</tspan><tspan class="cls-5" x="41.41" y="0">l</tspan><tspan x="58.24" y="0">t</tspan><tspan class="cls-1" x="72.09" y="0">u</tspan><tspan class="cls-3" x="93.01" y="0">r</tspan><tspan class="cls-7" x="113.37" y="0">e</tspan><tspan class="cls-6" x="133.69" y="0">t</tspan><tspan x="147.37" y="0">a</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279.38 109.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0016c1;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: #45ab65;
+        font-family: Neulis-ExtraBold, Neulis;
+        font-size: 34.63px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <ellipse class="cls-1" cx="139.69" cy="54.69" rx="144.29" ry="41.01" transform="translate(-9.44 38.43) rotate(-15.16)"/>
+    <text class="cls-7" transform="translate(26.19 96.33) rotate(-16.02)"><tspan class="cls-2" x="0" y="0">m</tspan><tspan class="cls-3" x="31.96" y="0">e </tspan><tspan class="cls-4" x="60.11" y="0">l</tspan><tspan x="76.59" y="0">o co</tspan><tspan class="cls-5" x="146.13" y="0">m</tspan><tspan x="178.09" y="0">o </tspan><tspan class="cls-6" x="206.27" y="0">t</tspan><tspan x="219.95" y="0">ó</tspan></text>
+  </g>
+</svg>

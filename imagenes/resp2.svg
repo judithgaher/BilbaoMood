@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309.59 115.07">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #ff5d2c;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-family: Neulis-ExtraBold, Neulis;
+        font-size: 39.62px;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <ellipse class="cls-2" cx="154.79" cy="57.53" rx="159.98" ry="40.92" transform="translate(-9.66 42.48) rotate(-15.16)"/>
+      <text class="cls-4" transform="translate(30.76 103.22) rotate(-16.02)"><tspan class="cls-8" x="0" y="0">R</tspan><tspan class="cls-6" x="25.48" y="0">e</tspan><tspan class="cls-7" x="49.17" y="0">l</tspan><tspan class="cls-1" x="68.04" y="0">a</tspan><tspan class="cls-3" x="93.47" y="0">xi</tspan><tspan class="cls-5" x="127.43" y="0">n</tspan><tspan x="151.84" y="0">g cup</tspan></text>
+    </g>
+  </g>
+</svg>
