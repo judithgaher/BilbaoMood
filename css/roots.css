@@ -1,0 +1,26 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+:root {     
+    --backgroundo-color-yelow: #e9bd10;
+    --backgroundo-color-red: #e86221;
+    --backgroundo-color-pink: #ef9aff;
+    --backgroundo-color-blue: #0019f5;
+    --backgroundo-color-green: #45ab65;
+    --font-familycuerpo: courier;
+    }
+
+@font-face {
+    font-family: Dela;
+        src: url(/fuentes/DelaGothicOne-Regular.ttf);   
+    }
+@font-face {
+        font-family: Neulis-black;
+        src: url(/fuentes/Neulis-Black.otf);
+    }
+@font-face {
+        font-family: Neulis-bold;
+        src: url(/fuentes/Neulis-ExtraBold.otf);
+    }

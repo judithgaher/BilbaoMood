@@ -6,33 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horocope Bilbao Mood</title>
     <link rel="stylesheet" href="/css/estilostest2.css">
+    <link rel="stylesheet" href="/css/roots.css">
     
 
 </head>
 <body>
-    <section class="test-01"> 
+    <section id="one" class="test-01"> 
             <nav> 
                 <div class="barra">
-                    <img class="mini-logo" src="/imagenes/logominiRecurso 15.svg" alt="">
-                    <button id="back">&#8592 ATRÁS</button>
-                </div>
+                    <a href="/index.html"><img class="mini-logo slide-in-blurred-top" src="/imagenes/logominiRecurso 15.svg" alt="logo de la empresa bilbao mood"></a> 
+                    <a href="/test1.html"><button id="back">&#8592 ATRÁS</button></a>
+                 </div>
             </nav>
             <header>
+                <p class="preguntadera"></p>
                 <article class="respuesta">
                     <div class="resp-1">
-                        <button><img src="/imagenes/resp4.svg" alt=""></button>
-                        <button><img src="/imagenes/resp5.svg" alt=""></button>
+                        <button class="resp4" onclick="valorRespuesta(1)"><img src="/imagenes/resp4.svg" alt=""></button>
+                        <button class="resp5" onclick="valorRespuesta(3)"><img src="/imagenes/resp5.svg" alt=""></button>
                     </div>
                     <div class="resp-2">
-                        <button><img src="/imagenes/resp6.svg" alt=""></button>
-                        <button><img src="/imagenes/resp7.svg" alt=""></button>
+                        <button class="resp6" onclick="valorRespuesta(2)"><img src="/imagenes/resp6.svg" alt=""></button>
+                        <button class="resp7"onclick="valorRespuesta(4)"><img src="/imagenes/resp7.svg" alt=""></button>
                     </div>
         
 
                 </article>  
             </header>
             <div class="boton">
-                <button class="siguiente-horos"> NEXT &#8594</button> </div>
+                <a href="/test3.html"><button class="btn siguiente-horos"> NEXT &#8594</button></a> </div>
     </section>
   
 </body>

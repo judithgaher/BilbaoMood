@@ -1,0 +1,7 @@
+iframe{ 
+    width: 40%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+
+}

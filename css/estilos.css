@@ -1,128 +1,200 @@
-*{ margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-
-:root {     
-    --backgroundo-color-yelow: #e9bd10;
-    --backgroundo-color-red: #e86221;
-    --backgroundo-color-pink: #ef9aff;
-    --backgroundo-color-blue: #0019f5;
-    --backgroundo-color-green: #45ab65;
-    --font-familycuerpo: courier;
-    }
-
-@font-face {
-    font-family: Dela;
-        src: url(/fuentes/DelaGothicOne-Regular.ttf);   
-    }
-@font-face {
-        font-family: Neulis-black;
-        src: url(/fuentes/Neulis-Black.otf);
-    }
-@font-face {
-        font-family: Neulis-bold;
-        src: url(/fuentes/Neulis-ExtraBold.otf);
-    }
-
-/*--------------------------COMIENZA TEST---------------------------*/
-
-.comienzatest{
-    width: 100%;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   background-image: url(/imagenes/BILBOMOODRecurso\ 1@2x.png);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-color: var(--backgroundo-color-pink);
+.navegador-inicio {
+  width: 65%;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+}
+.horizontal-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.horizontal-menu li {
+  margin-right: 10px;
+}
+.horizontal-menu li:last-child {
+  margin-right: 0;
+}
+.horizontal-menu li a {
+  text-decoration: none;
+  font-family: "Neulis";
+  padding: 10px;
+}
+.horizontal-menu li a:hover {
+  background-color: var(--backgroundo-color-red);
+  color: white;
+  border-radius: 20px;
+  mix-blend-mode: multiply;
+}
+.comienzatest {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/imagenes/BILBOMOODRecurso\ 1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 @keyframes slide-in {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
+  from {
+    transform: translateX(-100%);
   }
-  @keyframes slide-up {
-    from {
-      transform: translateY(100%);
-    }
-    to {
-      transform: translateY(0);
-    }
+  to {
+    transform: translateX(0);
   }
+}
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.cuerpo-descrip {
+  animation: slide-up 1s ease forwards;
+}
 
+.logo {
+  animation: slide-in 1s ease forwards;
+}
+.logo {
+  width: 52%;
+  mix-blend-mode: multiply;
+}
+header {
+  width: 65%;
+  height: 500px;
+}
+.cuerpo-descrip {
+  font-family: courier;
+  color: var(--backgroundo-color-blue);
+  font-size: 1.3em;
+  line-height: 22px;
+  mix-blend-mode: multiply;
+  padding-block-start: 2%;
+}
+span {
+  text-decoration: underline;
+}
+.empezar-btn {
+  background-color: var(--backgroundo-color-blue);
+  color: #ef9aff;
+  border-radius: 20px;
+  font-family: Dela;
+  font-size: 1.3em;
+  width: 22%;
+  height: 50px;
+  border: none;
+  mix-blend-mode: multiply;
+  margin-block-start: 3.3%;
+}
+.btn span:last-child {
+  display: none;
+}
+.btn:hover {
+  transition: 0.4s;
+  border: 2px dashed blue;
+  background-color: #fff;
+  color: var(--backgroundo-color-blue);
+}
+.btn:active {
+  background-color: #87dbd0;
+}
+.btn {
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    0.5s both;
+  animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* -----------------------------QUERYS--------------------------------------- */
+
+@media (max-width: 1024px){
+  .comienzatest {
+    background-image: url(/imagenes/1024/INDEXRecurso\ 39@2x.png);
+  }
   .cuerpo-descrip {
-    animation: slide-up 1s ease forwards;
-  }
-
-  .logo {
-    animation: slide-in 1s ease forwards;
-  }
-.logo{
-   width: 52%;
-    mix-blend-mode: multiply;
-  
-}
-header{
-    width: 65%;
-    height: 500px;
-    /*background-color: yellow;*/
-}
-.cuerpo-descrip{
     font-family: courier;
     color: var(--backgroundo-color-blue);
-    font-size: 1.3em;
-    line-height: 28px;
+    font-size: 1.1em;
+    line-height: 22px;
     mix-blend-mode: multiply;
-    padding-block-start: 4%;
-}
-span{
-    text-decoration:underline
-}
-.empezar-btn{
+    padding-block-start: 2%;
+  }
+  .empezar-btn {
     background-color: var(--backgroundo-color-blue);
     color: #ef9aff;
     border-radius: 20px;
     font-family: Dela;
     font-size: 1.3em;
-    width: 22%;
+    width: 32%;
     height: 50px;
     border: none;
     mix-blend-mode: multiply;
     margin-block-start: 3.3%;
+  }
 }
-.btn span:last-child {
-    display: none;
-   }
-   
-   .btn:hover {
-    transition: .4s;
-    border: 2px dashed blue;
-    background-color: #fff;
+@media (max-width: 768px) {
+  .comienzatest {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* justify-content: center; */
+    background-image: url(/imagenes/768/INDEXRecurso\ 40@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  header {
+    width: 55%;
+    height: 500px;
+  }
+  .cuerpo-descrip {
+    font-family: courier;
     color: var(--backgroundo-color-blue);
-   }
-   
-   .btn:active {
-    background-color: #87dbd0;
-   }
-   .btn{
-    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
-            animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+    font-size: 1em;
+    line-height: 22px;
+    mix-blend-mode: multiply;
+    /* padding-block-start: 2%; */
   }
-@keyframes scale-in-center {
-  0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    opacity: 1;
+  .empezar-btn {
+    background-color: var(--backgroundo-color-blue);
+    color: #ef9aff;
+    border-radius: 20px;
+    font-family: Dela;
+    font-size: 1.3em;
+    width: 32%;
+    height: 50px;
+    border: none;
+    mix-blend-mode: multiply;
+    margin-block-start: 3.3%;
   }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 1;
+}
+@media (max-width: 480px) {
+  .comienzatest {
+    background-image: url(/imagenes/480/indexRecurso\ 47@2x.png);
+  }
+}
+@media (max-width: 320px) {
+  .comienzatest {
+    background-image: url(/imagenes/320/indexRecurso\ 55@2x.png);
   }
 }

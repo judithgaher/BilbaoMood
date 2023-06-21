@@ -1,30 +1,3 @@
-*{ margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-
-:root {     
-    --backgroundo-color-yelow: #e9bd10;
-    --backgroundo-color-red: #e86221;
-    --backgroundo-color-pink: #ef9aff;
-    --backgroundo-color-blue: #0019f5;
-    --backgroundo-color-green: #45ab65;
-    --font-familycuerpo: courier;
-    }
-
-@font-face {
-    font-family: Dela;
-        src: url(/fuentes/DelaGothicOne-Regular.ttf);   
-    }
-@font-face {
-        font-family: Neulis-black;
-        src: url(/fuentes/Neulis-Black.otf);
-    }
-@font-face {
-        font-family: Neulis-bold;
-        src: url(/fuentes/Neulis-ExtraBold.otf);
-    }
-    /*--------------------------horoscopo---------------------------*/
 
     @keyframes slide-in {
         from {
@@ -60,6 +33,51 @@ nav {
  .mini-logo{
         width: 80px;
     } 
+    .slide-in-blurred-top {
+      -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+              animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    }
+
+ @-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
     #back{
         font-family: "Dela";
         text-align: left;
@@ -137,5 +155,45 @@ nav {
    scale: 115%;
    transform: rotate(3deg);
    }
+   .btn{
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+            animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+  }
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@media (max-width: 1024px) { 
+  .test-01{
+    background-image: url(/imagenes/1024/TEST4Recurso\ 37@2x.png);
+  }
+
+}
+@media (max-width: 768px) { 
+  .test-01{
+    background-image: url(/imagenes/768/test4Recurso\ 45@2x.png);
+  }
+
+}
+@media (max-width: 480px) { 
+  .test-01{
+    background-image: url(/imagenes/480/test4Recurso\ 53@2x.png);
+  }
+
+}
+@media (max-width: 320px) { 
+  .test-01{
+    background-image: url(/imagenes/320/test4Recurso\ 60@2x.png);
+  }
+
+}
 
 

@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horocope Bilbao Mood</title>
-    <link rel="stylesheet" href="/css/estiloshoroscopo.css">
+    <link rel="stylesheet" href="/css/estilostest.css">
+    <link rel="stylesheet" href="/css/roots.css">
     
 
 </head>
 <body>
     <div class="ex"></div>
     <section class="horoscopo"> 
-            <nav> 
+        <nav> 
+            <div class="registro">
                 <div class="barra">
-                    <img class="mini-logo" src="/imagenes/logominiRecurso 15.svg" alt="">
-                    <button id="back">&#8592 ATRÁS</button>
+                    <a href="/index.html"><img class="mini-logo slide-in-blurred-top" src="/imagenes/whitelogominiRecurso 15 copia.svg" alt="logo de la empresa bilbao mood"></a> 
+                        <a href="/index.html"><button id="back">&#8592 ATRÁS</button></a>
+                    </div>
+                <div id="resultado-horos"">
                 </div>
-            </nav>
+            </div>
+        </nav>
             <header>
                 <article class="fechas">
                     <input type="number" id="dia" class="hestilo" min="1" max="31">
@@ -27,7 +32,7 @@
                 <article class="bienvenide">
                     <div id="resultado"></div>
                     <div class="boton">
-                        <button class="siguiente-horos"> NEXT &#8594</button> </div>
+                        <a href="/test1.html"><button class="btn siguiente-horos"> NEXT &#8594</button></a></div>
                 </article>  
             </header>
     </section>

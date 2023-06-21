@@ -1,133 +1,253 @@
-*{ margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
 
-:root {     
-    --backgroundo-color-yelow: #e9bd10;
-    --backgroundo-color-red: #e86221;
-    --backgroundo-color-pink: #ef9aff;
-    --backgroundo-color-blue: #0019f5;
-    --backgroundo-color-green: #45ab65;
-    --font-familycuerpo: courier;
-    }
-
-@font-face {
-    font-family: Dela;
-        src: url(/fuentes/DelaGothicOne-Regular.ttf);   
-    }
-@font-face {
-        font-family: Neulis-black;
-        src: url(/fuentes/Neulis-Black.otf);
-    }
-@font-face {
-        font-family: Neulis-bold;
-        src: url(/fuentes/Neulis-ExtraBold.otf);
-    }
-    /*--------------------------horoscopo---------------------------*/
-
-    @keyframes slide-in {
-        from {
-          transform: translateX(-100%);
-        }
-        to {
-          transform: translateX(0);
-        }
-      }
-      .pregunta p {
-        animation: slide-in 1s ease forwards;
-      }
-      .resp1 {
-        animation: delay 0.2s;
-        animation: slide-in 1s ease forwards;
-      }
-      .resp2 {
-        animation: slide-in 1s ease forwards;
-      }
-      .resp3 {
-        animation: slide-in 1s ease forwards;
-      }
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.pregunta p {
+  animation: slide-in 1s ease forwards;
+}
+.resp1 {
+  animation: delay 0.2s;
+  animation: slide-in 1s ease forwards;
+}
+.resp2 {
+  animation: slide-in 1s ease forwards;
+}
+.resp3 {
+  animation: slide-in 1s ease forwards;
+}
 nav {
-    width: 100%;
-    margin-block-start: 4%;
-    margin-inline-start: 7%;
-    } 
-.barra{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+  width: 100%;
+  margin-block-start: 4%;
+  margin-inline-start: 7%;
 }
- .mini-logo{
-        width: 80px;
-    } 
+.barra {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.mini-logo {
+  width: 80px;
+}
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
 
-    #back{
-        font-family: "Dela";
-        text-align: left;
-        background: none;
-        border: none;
-        width: 80px;
-} 
-  
-.test-01{
-    width: 100%;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    background-image: url(/imagenes/BILBOMOODRecurso\ 4@2x.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+@-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+#back {
+  font-family: "Dela";
+  text-align: left;
+  background: none;
+  border: none;
+  width: 80px;
+}
+.test-01 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-image: url(/imagenes/BILBOMOODRecurso\ 4@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Dela";
+  font-size: 4.8em;
+  line-height: 1.1em;
+  margin-block-start: 2%;
+  margin-inline-start: 7%;
+}
+.pregunta {
+  width: 90%;
+}
+.boton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siguiente-horos {
+  background-color: black;
+  color: var(--backgroundo-color-red);
+  border-radius: 25px;
+  font-family: Dela;
+  font-size: 1.5em;
+  width: 180px;
+  height: 50px;
+  border: none;
+}
+.respuesta {
+  margin-block-start: 9%;
+  gap: 5%;
+}
+.respuesta button {
+  width: 250px;
+  background: none;
+  border: none;
+  margin-block-end: 3%;
+  margin-inline-end: 3%;
+}
+button:hover {
+  transition: 0.4;
+  scale: 115%;
+  transform: rotate(3deg);
+}
+.btn {
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    0.5s both;
+  animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* ----------------------------QUERYS-------------------------------- */
+
+@media (max-width: 1024px) {
+  .test-01 {
+    background-image: url(/imagenes/1024/TEST1Recurso\ 34@2x.png);
+  }
+
+  @media (max-width: 768px) {
+    .test-01 {
+      width: 100%;
+      height: 1024px;
+      background-image: url(/imagenes/768/test1Recurso\ 42@2x.png);
     }
-
- header{
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    font-family: "Dela";
-    font-size: 4.8em;
-    line-height: 1.1em;
-    margin-block-start: 2%;
-    margin-inline-start: 7%;
-
- }
- .pregunta{
-    width: 70%;
- }
- .boton{
+    header {
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+      font-family: "Dela";
+      font-size: 4.3em;
+      line-height: 1.1em;
+      margin-block-start: 2%;
+      margin-inline-start: 7%;
+    }
+    .pregunta {
+      width: 90%;
+    }
+    .respuesta {
+      display: flex;
+      flex-direction: column;
+      margin-block-start: 9%;
+      gap: 5%;
+      margin-block-start: 15%;
+      margin-block-end: 7%;
+    }
+    .respuesta button {
+      width: 250px;
+    }
+    .siguiente-horos {
+      width: 150px;
+      margin-block-start: 10%;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .test-01 {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.siguiente-horos{
-    background-color:black;
-    color:var(--backgroundo-color-red);
-    border-radius: 25px;
-    font-family: Dela;
-    font-size: 1.5em;
+    height: 768px;
+    background-image: url(/imagenes/480/test1Recurso\ 50@2x.png);
+  }
+  header{
+    font-size: 3.5em;
+    margin-block-start: 7%;
+    margin-inline-start: 7%;
+  }
+  .pregunta {
+    width: 100%;
+  }
+  .respuesta button {
     width: 180px;
-    height: 50px;
-    border: none;
+  }
+  .siguiente-horos {
+    width: 150px;
+    margin-block-start: 10%;
+  }
 }
-.respuesta{
-    margin-block-start: 9%;
-    gap: 5%;
-}
-.respuesta button{
-    width: 250px;
-    background: none;
-    border: none;
-    margin-block-end: 3%;
-    margin-inline-end: 3%;
-}
- button:hover {
-    transition: .4;
-   scale: 115%;
-   transform: rotate(3deg);
-   }
+@media (max-width: 320px) {
+  .test-01 {
+    width: 100%;
+    height: 480px;
+    background-image: url(/imagenes/320/test1Recurso\ 57@2x.png);
+  }
+  header{
+    font-size: 2.2em;
+    margin-block-start: 7%;
+    margin-inline-start: 7%;
+  }
+  .pregunta {
+    width: 100%;
+  }
+  .respuesta button {
+    width: 100px;
+  }
+  .siguiente-horos {
+    font-size: 0.8em;
+    width: 100px;
+    height: 30px;
+  }
 
+  
+
+  }
 

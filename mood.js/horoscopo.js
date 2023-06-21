@@ -12,10 +12,16 @@ document.getElementById("enviar").addEventListener("click", function() {
     let fechaObj = new Date(fecha);
     let mes = fechaObj.getMonth() + 1; 
     let horoscopo = obtenerHoroscopo(dia, mes);
-    
+ 
     let resultadoElement = document.getElementById("resultado");
+    let resultadoElement2 = document.getElementById("resultado-horos");
+   
     resultadoElement.innerHTML = "Bienvenide <br>" + horoscopo;
+    resultadoElement2.innerHTML = horoscopo;
   });
+
+
+
   
   function obtenerHoroscopo(dia, mes) {
     if ((mes === 1 && dia >= 20) || (mes === 2 && dia <= 18)) {
@@ -46,9 +52,3 @@ document.getElementById("enviar").addEventListener("click", function() {
     return "Ofiuco";
   }
 
-
-//   let siguiente= document.getElementById("next");
-//   siguiente.addEventListener("click",()=> {
-//       location.href= "/test1.html"
-//   })
-  
