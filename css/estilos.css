@@ -34,7 +34,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(/imagenes/BILBOMOODRecurso\ 1@2x.png);
+  background-image: url(/imagenes/BILBOMOODRecurso-1@2x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -57,6 +57,7 @@
 }
 .cuerpo-descrip {
   animation: slide-up 1s ease forwards;
+  margin-block-start: 2%;
 }
 
 .logo {
@@ -81,17 +82,22 @@ header {
 span {
   text-decoration: underline;
 }
+.ruta{
+ display: flex;
+ gap: 6%;
+ margin-block-start: 4%;
+}
 .empezar-btn {
   background-color: var(--backgroundo-color-blue);
   color: #ef9aff;
   border-radius: 20px;
   font-family: Dela;
   font-size: 1.3em;
-  width: 22%;
+  width: 120%;
   height: 50px;
   border: none;
   mix-blend-mode: multiply;
-  margin-block-start: 3.3%;
+
 }
 .btn span:last-child {
   display: none;

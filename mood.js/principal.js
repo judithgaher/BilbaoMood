@@ -1,61 +1,52 @@
-let preguntas = [
-  {
-    id : 1,
-    pregunta: "¿En qué mood estás hoy?",
-    respuestas: ["a", "b", "c"]
-  },
-  {
-    id : 2,
-    pregunta: "Elige aventura",
-    respuestas: ["a", "b", "c", "d"]
-  },
-  {
-    id : 3,
-    pregunta: "¿Dónde te apetece más?",
-    respuestas: ["a", "b"]
-  },
-  {
-    id : 4,
-    pregunta: "¿A qué hora estás hoy?",
-    respuestas: ["a", "b", "c"]
-  },
-  {
-    id : 5,
-    pregunta: "¿Con quién compartirás tu tiempo?",
-    respuestas: ["a", "b", "c"]
-  },
-];
+function manejarClic(valor) {
+  // Obtener el valor acumulado de puntos de la memoria del usuario para la página actual
+  var puntosPaginaActual = sessionStorage.getItem("puntosPaginaActual");
 
+  // Si no hay ningún valor almacenado o si estamos en la página test1.html, comenzar en 0
+  if (!puntosPaginaActual || window.location.pathname.includes("test1.html")) {
+    puntosPaginaActual = 0;
+  }
 
-// const pregs= document.querySelectorAll(".preguntadera");
+  // Convertir el valor a un número entero
+  puntosPaginaActual = parseInt(puntosPaginaActual);
 
-// for (let i=0; i<pregs.length; i++ ){
-//   console.log(pregs.length);  
+  // Sumar el valor del botón actual a los puntos acumulados para la página actual
+  puntosPaginaActual += valor;
 
-//   pregs[i].addEventListener("load",()=>{
-//     // console.log(i);
-//   });
-// }
-const respuestas = [];
+  // Guardar el nuevo valor acumulado en la memoria del usuario para la página actual
+  sessionStorage.setItem("puntosPaginaActual", puntosPaginaActual);
 
-const elementosRespuestas = document.querySelectorAll('.preguntadera');
+  // Si estamos en la página test5.html, reiniciar la suma total
+  if (window.location.pathname.includes("test5.html")) {
+    localStorage.removeItem("puntosTotal");
+  }
 
+  // Obtener la suma total acumulada de todas las páginas desde localStorage
+  var puntosTotal = localStorage.getItem("puntosTotal");
 
-// elementosRespuestas.forEach(function(elemento) {
-//   const valorRespuesta = elemento.id;
-//   respuestas.push(valorRespuesta);
-//   addEventListener("click",(e)=>{
-//     let answers= e.target.value
-//     console.log(answers);
-//   } )
+  // Si no hay ningún valor almacenado, comenzar en 0
+  if (!puntosTotal) {
+    puntosTotal = 0;
+  }
 
-// });
-console.log(respuestas);
-function valorRespuesta (e){
-  let a= e;
-  respuestas.push=e;
-  console.log(respuestas)
+  // Convertir el valor a un número entero
+  puntosTotal = parseInt(puntosTotal);
+
+  // Restar el valor anterior de la página actual de la suma total acumulada
+  puntosTotal -= puntosPaginaActual;
+
+  // Sumar el valor actual de la página actual a la suma total acumulada
+  puntosTotal += puntosPaginaActual;
+
+  // Guardar la nueva suma total acumulada en la memoria del usuario
+  localStorage.setItem("puntosTotal", puntosTotal);
+
+  // Mostrar el mensaje de puntos acumulados utilizando el alert solo para la página actual
+  alert("En esta página tienes " + puntosPaginaActual + " puntos, colega.");
+
+  // Obtener el botón que se ha clicado
+  var botonClicado = document.getElementById("boton-" + valor);
+
+  // Agregar la clase "marcado" al botón clicado
+  botonClicado.classList.add("marcado");
 }
-
-
- 

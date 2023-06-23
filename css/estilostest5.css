@@ -295,6 +295,7 @@ button:hover {
 }
 @media (max-width: 1024px) { 
   .test-01{
+    
     background-image: url(/imagenes/1024/TEST5Recurso\ 38@2x.png);
   }
 
@@ -317,4 +318,7 @@ button:hover {
   }
 
 }
-
+.marcado {
+  opacity: 50%;;
+ }
+ 

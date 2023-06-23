@@ -1,4 +1,3 @@
-
 @keyframes slide-in {
   from {
     transform: translateX(-100%);
@@ -92,7 +91,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: left;
-  background-image: url(/imagenes/BILBOMOODRecurso\ 4@2x.png);
+  background-image: url(/imagenes/BILBOMOODRecurso-4@2x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -165,41 +164,40 @@ button:hover {
   .test-01 {
     background-image: url(/imagenes/1024/TEST1Recurso\ 34@2x.png);
   }
-
-  @media (max-width: 768px) {
-    .test-01 {
-      width: 100%;
-      height: 1024px;
-      background-image: url(/imagenes/768/test1Recurso\ 42@2x.png);
-    }
-    header {
-      width: 95%;
-      display: flex;
-      flex-direction: column;
-      font-family: "Dela";
-      font-size: 4.3em;
-      line-height: 1.1em;
-      margin-block-start: 2%;
-      margin-inline-start: 7%;
-    }
-    .pregunta {
-      width: 90%;
-    }
-    .respuesta {
-      display: flex;
-      flex-direction: column;
-      margin-block-start: 9%;
-      gap: 5%;
-      margin-block-start: 15%;
-      margin-block-end: 7%;
-    }
-    .respuesta button {
-      width: 250px;
-    }
-    .siguiente-horos {
-      width: 150px;
-      margin-block-start: 10%;
-    }
+}
+@media (max-width: 768px) {
+  .test-01 {
+    width: 100%;
+    height: 1024px;
+    background-image: url(/imagenes/768/test1Recurso\ 42@2x.png);
+  }
+  header {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Dela";
+    font-size: 4.3em;
+    line-height: 1.1em;
+    margin-block-start: 2%;
+    margin-inline-start: 7%;
+  }
+  .pregunta {
+    width: 90%;
+  }
+  .respuesta {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 9%;
+    gap: 5%;
+    margin-block-start: 15%;
+    margin-block-end: 7%;
+  }
+  .respuesta button {
+    width: 250px;
+  }
+  .siguiente-horos {
+    width: 150px;
+    margin-block-start: 10%;
   }
 }
 @media (max-width: 480px) {
@@ -208,7 +206,7 @@ button:hover {
     height: 768px;
     background-image: url(/imagenes/480/test1Recurso\ 50@2x.png);
   }
-  header{
+  header {
     font-size: 3.5em;
     margin-block-start: 7%;
     margin-inline-start: 7%;
@@ -230,7 +228,7 @@ button:hover {
     height: 480px;
     background-image: url(/imagenes/320/test1Recurso\ 57@2x.png);
   }
-  header{
+  header {
     font-size: 2.2em;
     margin-block-start: 7%;
     margin-inline-start: 7%;
@@ -246,8 +244,8 @@ button:hover {
     width: 100px;
     height: 30px;
   }
-
-  
-
-  }
+}
+.marcado {
+ opacity: 50%;;
+}
 

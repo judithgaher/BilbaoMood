@@ -1,0 +1,148 @@
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .pregunta p {
+    animation: slide-in 1s ease forwards;
+  }
+  .resp1 {
+    animation: delay 0.2s;
+    animation: slide-in 1s ease forwards;
+  }
+  .resp2 {
+    animation: slide-in 1s ease forwards;
+  }
+  .resp3 {
+    animation: slide-in 1s ease forwards;
+  }
+  nav {
+    width: 100%;
+    margin-block-start: 4%;
+    margin-inline-start: 7%;
+  }
+  .barra {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .mini-logo {
+    width: 80px;
+  }
+  .slide-in-blurred-top {
+    -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+      both;
+    animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+  }
+  
+  @-webkit-keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+      transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+      filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+      transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+      transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+      filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+      transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  #back {
+    font-family: "Dela";
+    text-align: left;
+    background: none;
+    border: none;
+    width: 80px;
+  }
+
+.test-01 {
+    width: 100%;
+    height: 800px;
+    background-image: url(/imagenes/loginRecurso\ 67@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .vacio{
+    width: 40%;
+    height: 500px;
+  }
+.enter {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+}
+.logo{
+    width: 100%;
+    margin-block-end: 15%;
+}
+input{
+    border:0;
+    border-radius: 8px;
+    box-shadow: none;
+    height: 50px;
+    width: 300px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+label{
+    margin-top: 5%;
+}
+#resultado{
+    margin-top: 0;
+    border-radius: 10px;
+    font-family:'Dela';
+    background-color:#96aaf9;
+    font-size: 1em;
+    color: white;
+}
+
+form{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}

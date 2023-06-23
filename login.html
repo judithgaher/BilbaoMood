@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/roots.css">
+    <link rel="stylesheet" href="/css/login.css">
+
+</head>
+<body>
+  
+    <section class="test-01">
+      <nav> 
+        <div class="registro">
+            <div class="barra">
+                <a href="/index.html"><img class="mini-logo slide-in-blurred-top" src="/imagenes/logominiRecurso 15.svg" alt="logo de la empresa bilbao mood"></a> 
+                    <a href="/index.html"><button id="back">&#8592 ATRÁS</button></a>
+                </div>
+            </div>
+    </nav>
+    <div class="login">
+        <div class="vacio"></div>
+        <div class="enter">
+            <figure><img class="logo" src="/imagenes/logo.svg" alt="Logo BilbaoMood"></figure> 
+            <form action="#">
+                <label for="text">Nombre</label><br>
+                <input type="text" id="nombre"><br>
+                <label for="contrasena">Contraseña</label><br>
+                <input type="password" id="contrasena"><br>
+                <label for="comprobar"></label><br>
+                <input type="button" id="resultado" value="Iniciar Sesion" onclick="sesion()" >
+            </form>
+        </div>
+      </div>
+    </section>
+
+    <script>
+        function sesion() {
+          let name = document.getElementById('nombre').value;
+          let pass = document.getElementById('contrasena').value;
+      
+      
+          if (name === 'Judith' && pass === '11') {
+            localStorage.setItem('nombreUsuario', name); // Guarda el nombre en el almacenamiento local
+            location.href = 'index.html';
+          } else {
+            alert('Incorrecto');
+          }
+        }
+        // Función para mostrar el mensaje de bienvenida
+        function mostrarBienvenida() {
+          let nombreGuardado = localStorage.getItem('nombreUsuario');
+          if (nombreGuardado) {
+            let mensajeBienvenida = 'Bienvenido, ' + nombreGuardado;
+            document.getElementById('bienvenida').textContent = mensajeBienvenida;
+          }
+          alert(mostrarBienvenida)
+        }
+        mostrarBienvenida.innerHtml= nombreGuardado
+        window.addEventListener('DOMContentLoaded', mostrarBienvenida);
+      </script>
+      
+
+
+
+
+
+
+
+
+
+</body>
+</html>

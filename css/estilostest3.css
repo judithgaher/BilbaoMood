@@ -1,200 +1,287 @@
-
-    @keyframes slide-in {
-        from {
-          transform: translateX(-100%);
-        }
-        to {
-          transform: translateX(0);
-        }
-      }
-      .pregunta p {
-        animation: slide-in 1s ease forwards;
-      }
-      .resp1 {
-        animation: delay 0.2s;
-        animation: slide-in 1s ease forwards;
-      }
-      .resp2 {
-        animation: slide-in 1s ease forwards;
-      }
-      .resp3 {
-        animation: slide-in 1s ease forwards;
-      }
-nav {
-    width: 100%;
-    margin-block-start: 4%;
-    margin-inline-start: 7%;
-    } 
-.barra{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
- .mini-logo{
-        width: 80px;
-    } 
-    .slide-in-blurred-top {
-      -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-              animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-    }
+.pregunta p {
+  animation: slide-in 1s ease forwards;
+}
+.resp1 {
+  animation: delay 0.2s;
+  animation: slide-in 1s ease forwards;
+}
+.resp2 {
+  animation: slide-in 1s ease forwards;
+}
+.resp3 {
+  animation: slide-in 1s ease forwards;
+}
+nav {
+  width: 100%;
+  margin-block-start: 4%;
+  margin-inline-start: 7%;
+}
+.barra {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.mini-logo {
+  width: 80px;
+}
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
 
- @-webkit-keyframes slide-in-blurred-top {
+@-webkit-keyframes slide-in-blurred-top {
   0% {
     -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
     -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
     -webkit-filter: blur(40px);
-            filter: blur(40px);
+    filter: blur(40px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateY(0) scaleY(1) scaleX(1);
-            transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
     -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
     -webkit-filter: blur(0);
-            filter: blur(0);
+    filter: blur(0);
     opacity: 1;
   }
 }
 @keyframes slide-in-blurred-top {
   0% {
     -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
     -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
     -webkit-filter: blur(40px);
-            filter: blur(40px);
+    filter: blur(40px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateY(0) scaleY(1) scaleX(1);
-            transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
     -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
     -webkit-filter: blur(0);
-            filter: blur(0);
+    filter: blur(0);
     opacity: 1;
   }
 }
 
-    #back{
-        font-family: "Dela";
-        text-align: left;
-        background: none;
-        border: none;
-        width: 80px;
-} 
-  
-.test-01{
-    width: 100%;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    background-image: url(/imagenes/BILBOMOODRecurso\ 8@2x.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    }
+#back {
+  font-family: "Dela";
+  text-align: left;
+  background: none;
+  border: none;
+  width: 80px;
+}
 
- header{
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    font-family: "Dela";
-    font-size: 4.8em;
-    line-height: 1.1em;
-    margin-block-start: 2%;
-    margin-inline-start: 7%;
+.test-01 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-image: url(/imagenes/BILBOMOODRecurso-8@2x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
- }
- .pregunta{
-    width: 70%;
- }
- .respuesta-1{
+header {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Dela";
+  font-size: 4.8em;
+  line-height: 1.1em;
+  margin-block-start: 2%;
+  margin-inline-start: 7%;
+}
+.pregunta {
+  width: 70%;
+}
+.rotate-in-center {
+  -webkit-animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+.respuesta-1 {
   width: 100%;
   height: 150px;
   display: flex;
   flex-direction: row;
-  column-gap: 7%;
+  margin-block-start: 9%;
+  gap: 5%;
+  margin-block-end: 9%;
+  mix-blend-mode: multiply;
 }
- .boton{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.boton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siguiente-horos {
+  background-color: black;
+  color: var(--backgroundo-color-red);
+  border-radius: 25px;
+  font-family: Dela;
+  font-size: 1.5em;
+  width: 180px;
+  height: 50px;
+  border: none;
+}
+.respuesta-1 button {
+  width: 180px;
+  background: none;
+  border: none;
+  margin-block-end: 3%;
+  margin-inline-end: 3%;
+}
+button:hover {
+  transition: 0.4;
+  scale: 115%;
+  transform: rotate(3deg);
 }
 
-.siguiente-horos{
-    background-color:black;
-    color:var(--backgroundo-color-red);
-    border-radius: 25px;
-    font-family: Dela;
-    font-size: 1.5em;
-    width: 180px;
-    height: 50px;
-    border: none;
+.btn {
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    0.5s both;
+  animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
 }
-.respuesta-1{
-    margin-block-start: 9%;
-    gap: 5%;
-    margin-block-end: 9%;
-    mix-blend-mode: multiply;
-}
-
-.respuesta-1 button{
-    width: 180px;
-    background: none;
-    border: none;
-    margin-block-end: 3%;
-    margin-inline-end: 3%;
-}
- button:hover {
-    transition: .4;
-   scale: 115%;
-   transform: rotate(3deg);
-   }
-
-   .btn{
-    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
-            animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
-  }
 @keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
-@media (max-width: 1024px) { 
-  .test-01{
+@media (max-width: 1024px) {
+  .test-01 {
+    width: 100%;
+    height: 768;
     background-image: url(/imagenes/1024/TEST3Recurso\ 36@2x.png);
   }
-
+  header {
+    font-size: 4.5em;
+  }
+  .pregunta {
+    width: 90%;
+  }
+  .respuesta-1 button {
+    width: 150px;
+  }
 }
-@media (max-width: 768px) { 
-  .test-01{
+@media (max-width: 768px) {
+  .test-01 {
     background-image: url(/imagenes/768/test3Recurso\ 44@2x.png);
   }
-
+  header {
+    font-size: 4.1em;
+    width: 75%;
+  }
+  .respuesta-1 {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    margin-block-start: 3%;
+    margin-block-end: 15%;
+  }
+  .boton {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-block-start: 12%;
+    margin-inline-start: 7%;
+  }
 }
-@media (max-width: 480px) { 
-  .test-01{
+@media (max-width: 480px) {
+  .test-01 {
     background-image: url(/imagenes/480/test3Recurso\ 52@2x.png);
   }
-
+  header {
+    font-size: 3.5em;
+    width: 90%;
+  }
+  .respuesta-1 button {
+    width: 120px;
+    margin-block-start: 5%;
+  }
+  .siguiente-horos {
+    margin-top: 42%;
+  }
 }
-@media (max-width: 320px) { 
-  .test-01{
+@media (max-width: 320px) {
+  .test-01 {
+    width: 100%;
+    height: 480px;
     background-image: url(/imagenes/320/test3Recurso\ 59@2x.png);
   }
-
+  header {
+    font-size: 2em;
+    width: 90%;
+  }
+  .respuesta-1 button {
+    width: 90px;
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+  }
+  .boton {
+    margin-block-start: 0;
+    margin-inline-start: 0;
+    height: 50px;
+    align-items: center;
+  }
+  .siguiente-horos {
+    font-size: 1em;
+    width: 100px;
+    height: 30px;
+    margin-left: 7%;
+  }
 }
+.marcado {
+  opacity: 50%;;
+ }
+ 

@@ -76,7 +76,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/imagenes/BILBOMOODRecurso\ 2@2x.png);
+    background-image: url(/imagenes/BILBOMOODRecurso-2@2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -107,7 +107,7 @@ nav {
         display: flex;
         flex-direction: row;
         /* background-color: #ef9aff; */
-        width: 89%;
+        width: 91%;
         justify-content: space-between;
     }
       #resultado-horos{
@@ -137,6 +137,11 @@ nav {
     margin-block-start: 5%;
     margin-bottom: 2%;  
  
+}
+#fechaHora{
+  font-family: "courier";
+  color: white;
+  text-align: center;
 }
 
 .fechas {
@@ -180,7 +185,7 @@ nav {
    }
    #resultado{
     font-family:Dela;
-    font-size: 3.6em;
+    font-size: 3em;
     line-height: 1.2em;
     text-align: center;
     width: 100%;

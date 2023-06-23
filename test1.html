@@ -16,20 +16,18 @@
             <div class="registro">
                 <div class="barra">
                     <a href="/index.html"><img class="mini-logo slide-in-blurred-top" src="/imagenes/logominiRecurso 15.svg" alt="logo de la empresa bilbao mood"></a> 
-                        <a href="/test.html"><button id="back">&#8592 ATRÁS</button></a>
+                        <a href="/index.html"><button id="back">&#8592 ATRÁS</button></a>
                     </div>
-                <div id="resultado-horos"">
                 </div>
-            </div>
         </nav>
             <header>
                 <article class="pregunta"> 
                     <p class="preguntadera" id="1">  ¿En qué <br>mood estás hoy?</p>
                 </article>
                 <article class="respuesta">
-                    <button class="resp1" onclick="valorRespuesta(4)"><img src="/imagenes/resp1.svg" value="" alt=""></button>
-                    <button class="resp2" onclick="valorRespuesta(3)"><img src="/imagenes/resp2.svg" alt=""></button>
-                    <button class="resp3" onclick="valorRespuesta(1)"><img src="/imagenes/resp3.svg" alt=""></button>
+                    <button id="boton-1"class="resp" onclick="manejarClic(3)"><img src="/imagenes/resp1.svg" alt=""></button>
+                    <button id="boton-2"class="resp" onclick="manejarClic(1)"><img src="/imagenes/resp2.svg" alt=""></button>
+                    <button id="boton-3"class="resp" onclick="manejarClic(0)"><img src="/imagenes/resp3.svg" alt=""></button>
                 </article>  
             </header>
             <div class="boton">
@@ -38,5 +36,4 @@
   
 </body>
 <script src="/mood.js/principal.js" ></script>
-<!-- <script src="/mood.js/horoscopo.js" ></script> -->
 </html>
