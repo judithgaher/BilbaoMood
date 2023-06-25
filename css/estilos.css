@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Neulis-black;
+  src: url(/fuentes/Neulis-Black.otf);
+}
+@font-face {
+  font-family: Neulis-bold;
+  src: url(/fuentes/Neulis-ExtraBold.otf);
+}
+
 .navegador-inicio {
   width: 65%;
   height: 40px;
@@ -78,14 +87,15 @@ header {
   line-height: 22px;
   mix-blend-mode: multiply;
   padding-block-start: 2%;
+  max-width: 52%;
 }
 span {
   text-decoration: underline;
 }
-.ruta{
- display: flex;
- gap: 6%;
- margin-block-start: 4%;
+.ruta {
+  display: flex;
+  gap: 6%;
+  margin-block-start: 4%;
 }
 .empezar-btn {
   background-color: var(--backgroundo-color-blue);
@@ -97,7 +107,6 @@ span {
   height: 50px;
   border: none;
   mix-blend-mode: multiply;
-
 }
 .btn span:last-child {
   display: none;
@@ -131,7 +140,7 @@ span {
 
 /* -----------------------------QUERYS--------------------------------------- */
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .comienzatest {
     background-image: url(/imagenes/1024/INDEXRecurso\ 39@2x.png);
   }
@@ -142,28 +151,28 @@ span {
     line-height: 22px;
     mix-blend-mode: multiply;
     padding-block-start: 2%;
+    margin-left: 5%;
+  }
+  .logo {
+    margin-left: 5%;
   }
   .empezar-btn {
-    background-color: var(--backgroundo-color-blue);
-    color: #ef9aff;
-    border-radius: 20px;
-    font-family: Dela;
-    font-size: 1.3em;
-    width: 32%;
-    height: 50px;
-    border: none;
+    font-size: 1em;
+    width: 100%;
     mix-blend-mode: multiply;
     margin-block-start: 3.3%;
+    margin-left: 20%;
+  }
+  header {
+    width: 95%;
+    height: 500px;
+    margin-top: 7%;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 768px) {
   .comienzatest {
     width: 100%;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    /* justify-content: center; */
+    height: 1024x;
     background-image: url(/imagenes/768/INDEXRecurso\ 40@2x.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,20 +196,91 @@ span {
     border-radius: 20px;
     font-family: Dela;
     font-size: 1.3em;
-    width: 32%;
+    width: 80%;
     height: 50px;
     border: none;
     mix-blend-mode: multiply;
     margin-block-start: 3.3%;
+  }
+  .ruta {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 4%;
+  }
+  .hidden {
+    display: none;
   }
 }
 @media (max-width: 480px) {
   .comienzatest {
     background-image: url(/imagenes/480/indexRecurso\ 47@2x.png);
   }
+  .cuerpo-descrip {
+    font-family: courier;
+    color: var(--backgroundo-color-blue);
+    font-size: 1em;
+    line-height: 22px;
+    mix-blend-mode: multiply;
+    padding-block-start: 0%;
+    width: 150%;
+    margin-left: 5%;
+  }
+  header {
+    width: 95%;
+    height: 500px;
+    margin-top: 7%;
+  }
+  .logo {
+    margin-left: 5%;
+  }
+  .hidden {
+    display: none;
+  }
+  .ruta {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 4%;
+  }
+  .empezar-btn {
+    font-size: 1em;
+    width: 50%;
+    margin-left: 5%;
+  }
+  .navegador-inicio {
+    width: 100%;
+    margin-left: 7%;
+  }
 }
 @media (max-width: 320px) {
+  .navegador-inicio {
+    width: 100%;
+  }
+  .horizontal-menu li {
+    margin-right: 0px;
+  }
+  .horizontal-menu li a {
+    font-size: 0.8em;
+  }
   .comienzatest {
+    width: 100%;
     background-image: url(/imagenes/320/indexRecurso\ 55@2x.png);
+  }
+  .cuerpo-descrip {
+    /* background-color: yellow; */
+    margin-block-start: 6%;
+  }
+  .ruta {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 4%;
+    gap: 10%;
+  }
+  .empezar-btn {
+    font-size: 1em;
+    width: 50%;
+    margin-left: 5%;
   }
 }

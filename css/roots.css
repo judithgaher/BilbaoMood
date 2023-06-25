@@ -25,7 +25,4 @@
         src: url(/fuentes/Neulis-ExtraBold.otf);
     }
 
- .marcado {
-  mix-blend-mode: multiply;
-  /* Otros estilos que desees aplicar cuando el botón esté marcado */
-}
+

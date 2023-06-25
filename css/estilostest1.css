@@ -1,3 +1,6 @@
+button {
+  cursor: pointer;
+}
 @keyframes slide-in {
   from {
     transform: translateX(-100%);
@@ -9,18 +12,20 @@
 .pregunta p {
   animation: slide-in 1s ease forwards;
 }
-.resp1 {
+.anim1 {
   animation: delay 0.2s;
   animation: slide-in 1s ease forwards;
 }
-.resp2 {
-  animation: slide-in 1s ease forwards;
+.anim2 {
+  animation: delay 0.3s;
+  animation: slide-in 1.2s ease forwards;
 }
-.resp3 {
-  animation: slide-in 1s ease forwards;
+.anim3 {
+  animation: delay 0.4s;
+  animation: slide-in 1.3s ease forwards;
 }
 nav {
-  width: 100%;
+  width: 93%;
   margin-block-start: 4%;
   margin-inline-start: 7%;
 }
@@ -141,6 +146,7 @@ button:hover {
   scale: 115%;
   transform: rotate(3deg);
 }
+
 .btn {
   -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     0.5s both;
@@ -162,13 +168,14 @@ button:hover {
 
 @media (max-width: 1024px) {
   .test-01 {
+    height: 100 vh;
     background-image: url(/imagenes/1024/TEST1Recurso\ 34@2x.png);
   }
 }
 @media (max-width: 768px) {
   .test-01 {
     width: 100%;
-    height: 1024px;
+    height: 100 vh;
     background-image: url(/imagenes/768/test1Recurso\ 42@2x.png);
   }
   header {
@@ -200,19 +207,21 @@ button:hover {
     margin-block-start: 10%;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 480px) and (max-width: 600px) {
   .test-01 {
     width: 100%;
-    height: 768px;
+    height: 100 vh;
     background-image: url(/imagenes/480/test1Recurso\ 50@2x.png);
   }
   header {
-    font-size: 3.5em;
+    font-size: 2.4em;
+    width: 60%;
     margin-block-start: 7%;
     margin-inline-start: 7%;
   }
   .pregunta {
     width: 100%;
+    margin-block-start: 10%;
   }
   .respuesta button {
     width: 180px;
@@ -221,31 +230,41 @@ button:hover {
     width: 150px;
     margin-block-start: 10%;
   }
+  .respuesta {
+    margin-block-end: 39%;
+    margin-block-start: 20%;
+    gap: 5%;
+  }
 }
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .test-01 {
     width: 100%;
-    height: 480px;
+    height: 100vh;
     background-image: url(/imagenes/320/test1Recurso\ 57@2x.png);
   }
   header {
-    font-size: 2.2em;
+    font-size: 2em;
     margin-block-start: 7%;
     margin-inline-start: 7%;
   }
   .pregunta {
     width: 100%;
+    margin-block-start: 10%;
   }
   .respuesta button {
-    width: 100px;
+    width: 130px;
   }
   .siguiente-horos {
     font-size: 0.8em;
     width: 100px;
     height: 30px;
   }
+  .respuesta {
+    margin-block-end: 39%;
+    margin-block-start: 20%;
+    gap: 5%;
+  }
 }
 .marcado {
- opacity: 50%;;
+  opacity: 50%;
 }
-

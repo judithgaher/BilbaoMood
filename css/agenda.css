@@ -1,0 +1,270 @@
+nav {
+  width: 93%;
+  margin-block-start: 4%;
+  margin-inline-start: 7%;
+}
+.barra {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.mini-logo {
+  width: 80px;
+}
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+@-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+#back {
+  font-family: "Dela";
+  text-align: left;
+  background: none;
+  color: white;
+  border: none;
+  width: 80px;
+}
+.test-01 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-image: url(/imagenes/agendaRecurso\ 77@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ------------------------ :) -------------------------- */
+.tarjetas {
+  transition: transform 0.5s ease;
+}
+.tarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  column-gap: 5%;
+}
+.tarjeta-style {
+  background-color: #fdbb2d;
+  width: 300px;
+  height: 350px;
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 20%;
+}
+h6 {
+  color: grey;
+}
+.tr1 {
+  background-image: url(/imagenes/eventos/kalealdi.jpg);
+  background-origin: content-box;
+  background-position: center;
+  background-size: cover;
+}
+.tr2 {
+  background-image: url(/imagenes/eventos/expoRecurso\ 71@2x-100.jpg);
+  background-origin: content-box;
+  background-position: center;
+  background-size: cover;
+}
+.tr3 {
+  background-image: url(/imagenes/eventos/restauranRecurso\ 70@2x-100.jpg);
+  background-origin: content-box;
+  background-position: center;
+  background-size: cover;
+}
+.tr4 {
+  background-image: url(/imagenes/eventos/el\ agua.jpeg);
+  background-origin: content-box;
+  background-position: center;
+  background-size: cover;
+}
+.tr5 {
+    background-image: url(/imagenes/eventos/concierto-siglas.jpg);
+    background-origin: content-box;
+    background-position: center;
+    background-size: cover;
+  }
+  .tr6 {
+    background-image: url(/imagenes/eventos/punki.jpeg);
+    background-origin: content-box;
+    background-position: center;
+    background-size: cover;
+  }
+  .tr7 {
+    background-image: url(/imagenes/eventos/quitapenas.png);
+    background-origin: content-box;
+    background-position: center;
+    background-size: cover;
+  }
+  .tr8{
+    background-image: url(/imagenes/eventos/zinegoak.jpg);
+    background-origin: content-box;
+    background-position: top;
+    background-size: cover;
+ 
+  }
+  .tr9{
+    background-image: url(/imagenes/eventos/muelle.png);
+    background-origin: content-box;
+    background-position: top;
+    background-size: cover;
+ 
+  }
+.tarjeta-style:hover {
+  scale: 110%;
+}
+.bloquecolor {
+  position: absolute;
+  background-color: white;
+  border-radius: 0 0 30px 30px;
+  color: black;
+  width: 300px;
+  height: 100px;
+  margin-top: 95%;
+  font-family: Dela;
+  justify-content: center;
+  font-size: 1em;
+  text-align: left;
+  display: inline;
+  padding: 3% 0 3% 9%;
+}
+.bloquecolor :hover {
+  scale: 110%;
+}
+.bloquecolor p {
+  font-size: 0.8em;
+}
+.contenedor {
+  position: relative;
+}
+.semana-titulo {
+  width: 100%;
+  text-align: center;
+  font-family: Dela;
+  font-size: 2.7em;
+  mix-blend-mode: screen;
+  color: beige;
+}
+
+#siguiente {
+  position: absolute;
+  top: 50%;
+  right: 70px;
+  transform: translateY(-50%);
+  font-family: Dela;
+  color: #ef9aff;
+  font-size: 6em;
+  background: none;
+  border: none;
+}
+#anterior {
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  transform: translateY(-50%);
+  font-family: Dela;
+  color: #ef9aff;
+  font-size: 6em;
+  background: none;
+  border: none;
+}
+#siguiente:hover {
+  scale: 110%;
+}
+#siguiente:active {
+  color: #fdbb2d;
+}
+#anterior:hover {
+  scale: 110%;
+}
+#anterior:active {
+  color: #fdbb2d;
+}
+.scale-in-ver-center {
+	-webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-6-24 22:45:16
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-in-ver-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-in-ver-center {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-center {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1;
+  }
+}

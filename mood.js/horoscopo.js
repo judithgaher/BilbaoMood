@@ -1,8 +1,3 @@
-// const volver= document.getElementById("back");
-// volver.addEventListener("click",()=> {
-//     location.href= "/index.html"
-// })
-
 document.getElementById("enviar").addEventListener("click", function () {
   let dia = document.getElementById("dia").value;
   let fecha = document.getElementById("fecha").value;
@@ -52,4 +47,4 @@ function mostrarFechaHora() {
   document.getElementById("fechaHora").innerHTML = "Fecha: " + fecha + " <br>Hora: " + hora;
 }
 
-setInterval(mostrarFechaHora, 1000); // Actualiza la fecha y hora cada segundo
+setInterval(mostrarFechaHora, 1000);
