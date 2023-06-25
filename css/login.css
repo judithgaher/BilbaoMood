@@ -101,6 +101,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5%;
 }
 .vacio {
   width: 40%;
@@ -110,6 +111,7 @@ nav {
   width: 60%;
   height: 500px;
   font-family: courier;
+  
 }
 .envolvente{
   min-width: 50%;
@@ -123,6 +125,7 @@ nav {
   align-items: center;
   mix-blend-mode: multiply;
   box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.2);
+  
 }
 .submit {
   background-color: white;
