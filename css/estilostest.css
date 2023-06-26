@@ -254,8 +254,6 @@ nav {
         padding: 7%; 
         align-items: center;
       }
-    
-    
     }
     @media (max-width: 480px) { 
       .horoscopo{
@@ -264,7 +262,6 @@ nav {
       .fechas{
         width: 100%;
         gap: 10px;
-        padding: 7%; 
         align-items: center;
       }
     
