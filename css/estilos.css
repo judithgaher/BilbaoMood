@@ -36,9 +36,11 @@
   border-radius: 20px;
   mix-blend-mode: multiply;
 }
+/* ------------------------------------------------- */
+
 .comienzatest {
   max-width: min(100%, 2400px);
-  height: 800px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +75,8 @@
   animation: slide-in 1s ease forwards;
 }
 .logo {
-  width: 52%;
+  margin-block-start: 2%;
+  width: 45%;
   mix-blend-mode: multiply;
 }
 header {
@@ -83,11 +86,11 @@ header {
 .cuerpo-descrip {
   font-family: courier;
   color: var(--backgroundo-color-blue);
-  font-size: 1.3em;
-  line-height: 22px;
+  font-size: 1.2em;
+  line-height: 20px;
   mix-blend-mode: multiply;
   padding-block-start: 2%;
-  max-width: 52%;
+  max-width: 50%;
 }
 span {
   text-decoration: underline;
@@ -102,11 +105,12 @@ span {
   color: #ef9aff;
   border-radius: 20px;
   font-family: Dela;
-  font-size: 1.3em;
+  font-size: 1em;
   width: 120%;
   height: 50px;
   border: none;
   mix-blend-mode: multiply;
+  padding: 3%;
 }
 .btn span:last-child {
   display: none;
@@ -137,17 +141,11 @@ span {
     opacity: 1;
   }
 }
+.marcado {
+  opacity: 50%;;
+ }
 
 /* -----------------------------QUERYS--------------------------------------- */
-@media (max-width: 1920px) {
-  .comienzatest {
-    background-image: url(/imagenes/1024/INDEXRecurso\ 39@2x.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 1080px;
-  }
-}
 
 @media (max-width: 1024px) {
   .comienzatest {
@@ -200,7 +198,7 @@ span {
     background-position: center;
   }
   header {
-    width: 55%;
+    width: 100%;
     height: 500px;
   }
   .cuerpo-descrip {

@@ -2,10 +2,13 @@ body {
   cursor: url('/imagenes/cursorRecurso\ 72@2x.png'), auto;
 }
 .cabecera {
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-image: url(/imagenes/resultadoRecurso\ 68@2x.png);
+
 }
 form {
   width: 50%;
@@ -39,7 +42,7 @@ form {
   animation: slide-in 1s ease forwards;
 }
 .titulo {
-  width: 400px;
+  width: 40%px;
   top: 1%;
   left: 0;
   right: 0;
@@ -116,5 +119,27 @@ button:hover {
     -webkit-transform: translateX(-100px);
             transform: translateX(-100px);
   }
+}
+@media (max-width:780px){
+  form {
+    width: 100%;
+}.titulo{
+  width: 200px;
+}
+h1{
+  display: none;
+}
+.cabecera{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form div {
+  margin-left: 30%;
+}
+button{
+  margin-left: 30%;
+}
 }
 

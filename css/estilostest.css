@@ -71,7 +71,7 @@ nav {
   
 .horoscopo{
     width: 100%;
-    height: 800px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +79,7 @@ nav {
     background-image: url(/imagenes/BILBOMOODRecurso-2@2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-color: var(--backgroundo-color-pink);
     }
     .horoscopo{
@@ -126,6 +126,8 @@ nav {
     display: flex;
     flex-direction: column;
     margin-block-start: 2%; 
+    /* background-color: #87dbd0; */
+    margin-block-start: 22%;
  }
    .fechas{
     width: 100%;
@@ -134,9 +136,8 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px; 
     align-items: center;
-    margin-block-start: 5%;
     margin-bottom: 2%;  
- 
+    /* background-color: aqua; */ 
 }
 #fechaHora{
   font-family: "courier";
