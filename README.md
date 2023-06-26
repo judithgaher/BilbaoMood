@@ -19,4 +19,6 @@ Con un estética vintage y una paleta de colores vibrante, la web adquiere un lo
 En un futuro podría tener: Playlist recomendadas, Entrevistas y apartado de locales.
 Podría implementarse con alguna API para mantener la agenda lo más actualizada posible.
 
+Autora: Judith Gago Hernández. email: gagohernandezj@gmail.com
+
 https://bilbaomood.netlify.app/index.html
