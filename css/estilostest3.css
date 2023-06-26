@@ -200,7 +200,7 @@ button:hover {
 @media (max-width: 1024px) {
   .test-01 {
     width: 100%;
-    height: 768;
+    height: 768px;
     background-image: url(/imagenes/1024/TEST3Recurso\ 36@2x.png);
   }
   header {
@@ -215,6 +215,7 @@ button:hover {
 }
 @media (max-width: 768px) {
   .test-01 {
+    height: 100%;
     background-image: url(/imagenes/768/test3Recurso\ 44@2x.png);
   }
   header {

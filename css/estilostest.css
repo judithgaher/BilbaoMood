@@ -247,11 +247,24 @@ nav {
       .horoscopo{
         background-image: url(/imagenes/768/horosRecurso\ 41@2x.png);
       }
+      .fechas{
+        width: 100%;
+        gap: 10px;
+        padding: 7%; 
+        align-items: center;
+      }
+    
     
     }
     @media (max-width: 480px) { 
       .horoscopo{
         background-image: url(/imagenes/480/horosRecurso\ 48@2x.png);
+      }
+      .fechas{
+        width: 90%;
+        gap: 10px;
+        padding: 2%; 
+        background-color: #87dbd0;
       }
     
     }
@@ -259,7 +272,7 @@ nav {
       .horoscopo{
         background-image: url(/imagenes/320/horosRecurso\ 56@2x.png);
       }
-    
+     
     }
      
   

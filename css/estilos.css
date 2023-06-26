@@ -37,7 +37,7 @@
   mix-blend-mode: multiply;
 }
 .comienzatest {
-  width: 100%;
+  max-width: min(100%, 2400px);
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -139,10 +139,20 @@ span {
 }
 
 /* -----------------------------QUERYS--------------------------------------- */
+@media (max-width: 1920px) {
+  .comienzatest {
+    background-image: url(/imagenes/1024/INDEXRecurso\ 39@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1080px;
+  }
+}
 
 @media (max-width: 1024px) {
   .comienzatest {
     background-image: url(/imagenes/1024/INDEXRecurso\ 39@2x.png);
+    min-height: 768px;
   }
   .cuerpo-descrip {
     font-family: courier;
@@ -169,10 +179,21 @@ span {
     margin-top: 7%;
   }
 }
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px){
+  .comienzatest {
+    background-image: url(/imagenes/1024/INDEXRecurso\ 39@2x.png);
+    height: auto;
+  }
+
+}
+@media (max-width: 768px) {
+  .navegador-inicio{
+   width:100%;
+   margin-inline-start: 20%;
+  }
   .comienzatest {
     width: 100%;
-    height: 1024x;
+    height: 1024px;
     background-image: url(/imagenes/768/INDEXRecurso\ 40@2x.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -188,14 +209,13 @@ span {
     font-size: 1em;
     line-height: 22px;
     mix-blend-mode: multiply;
-    /* padding-block-start: 2%; */
   }
   .empezar-btn {
     background-color: var(--backgroundo-color-blue);
     color: #ef9aff;
     border-radius: 20px;
     font-family: Dela;
-    font-size: 1.3em;
+    font-size: 1em;
     width: 80%;
     height: 50px;
     border: none;
@@ -203,10 +223,12 @@ span {
     margin-block-start: 3.3%;
   }
   .ruta {
-    width: 70vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
-    margin-block-start: 4%;
+  }
+  .empezar-btn{
+    margin-left: 7%; 
   }
   .hidden {
     display: none;
