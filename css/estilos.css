@@ -234,6 +234,7 @@ span {
 }
 @media (max-width: 480px) {
   .comienzatest {
+    height: 100vh;
     background-image: url(/imagenes/480/indexRecurso\ 47@2x.png);
   }
   .cuerpo-descrip {
@@ -285,6 +286,7 @@ span {
   }
   .comienzatest {
     width: 100%;
+    height: 100vh;
     background-image: url(/imagenes/320/indexRecurso\ 55@2x.png);
   }
   .cuerpo-descrip {

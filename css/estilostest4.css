@@ -101,7 +101,7 @@ header {
   display: flex;
   flex-direction: column;
   font-family: "Dela";
-  font-size: 4.2em;
+  font-size: 4em;
   line-height: 1.1em;
   margin-inline-start: 7%;
 }
@@ -111,7 +111,7 @@ header {
 .respuestas {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 50%;
   margin-block-start: 4%;
 }
 .respuesta-1 {
@@ -122,7 +122,7 @@ header {
   column-gap: 9%;
 }
 .respuesta-2 {
-  width: 100%;
+  width: 80%;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -222,7 +222,7 @@ button:hover {
   }
  .preguntadera {
     width: 100%;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-block-start: 15%;
   
   }
@@ -230,14 +230,27 @@ button:hover {
     width: 100%;
   }
 }
-
-
 @media (max-width: 320px) {
   .test-01 {
     background-image: url(/imagenes/320/test4Recurso\ 60@2x.png);
   }
+  .preguntadera {
+    width: 100%;
+    font-size: 0.7em;
+    margin-block-start: 15%;
+  }
+  .pregunta {
+    width: 100%;
+  }
+  header{
+    line-height: 0.8em;
+  }
+  .resp{
+    width: 50%;
+  }
+ 
 }
 .marcado {
-  opacity: 50%;;
+  opacity: 20%;;
  }
  
