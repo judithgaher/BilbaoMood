@@ -262,9 +262,8 @@ nav {
         background-image: url(/imagenes/480/horosRecurso\ 48@2x.png);
       }
       .fechas{
-        width: 90%;
+        width: 100%;
         gap: 10px;
-        padding: 2%; 
         padding: 7%; 
         align-items: center;
       }
