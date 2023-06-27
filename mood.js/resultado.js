@@ -54,8 +54,8 @@ let imagenElement = document.getElementById("imagenResultado");
       imagenElement.alt = "Mierka";
     } 
     else {
-      mensajeElement.innerHTML="Concierto de The Covenant + Lodor + Fufu";
-      submensajeElement.innerHTML="19.00 hrs- Antzoki";
+      mensajeElement.innerHTML="Concierto de <br> The Covenant + Lodor + Fufu";
+      submensajeElement.innerHTML="19.00 HRS - ANTZOKI";
       imagenElement.src = "/imagenes/resultado1.png";
       imagenElement.alt = "Mierka";
     }
