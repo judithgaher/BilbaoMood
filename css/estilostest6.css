@@ -1,3 +1,6 @@
+button {
+  cursor: pointer;
+}
 @font-face {
   font-family: Neulis bold;
   src: url(/fuentes/Neulis-ExtraBold.otf);
@@ -113,7 +116,7 @@
     justify-content:flex-start;
     align-items: left;
     width: 50%;
-    padding-block-start: 7%;
+    padding-block-start: 8%;
     padding-inline-start: 15%;
     row-gap: 4%;
     /* background-color: blue; */
@@ -147,6 +150,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
+    margin-block-start: 5%;
   }
   .siguiente-horos {
     background-color: black;
@@ -253,5 +257,78 @@
     opacity: 1;
   }
 }
+@media (max-width: 1024px){
+  .test01{
+    align-items: center;
+  }
+  .contenedor{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 7%;
+  }
+  .texto-resul{
+    margin-block-end: 8%;
+    padding-inline-start: 0%;
+    text-align: center;
+    justify-content: center;
+    row-gap: 14%;
+  }
+  #mensaje{
+    font-size: 2em;
+  }
+  #submensaje{
+    font-size: 1em;
+  }
+  #planazo{
+    margin-block-end: 7%;
+  }
+  .boton{
+    scale:80%;
+    margin-block-start: 10%;
+    justify-content: center;
+  }
+  .imagen-resul{
+    width: 70%;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px){
+  .test01{
+    align-items: center;
+  }
+  .contenedor{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 7%;
+  }
+  .texto-resul{
+    margin-block-end: 8%;
+    padding-inline-start: 0%;
+    text-align: center;
+    justify-content: center;
+    row-gap: 14%;
+  }
+  #mensaje{
+    font-size: 2em;
+  }
+  #submensaje{
+    font-size: 1em;
+  }
+  #planazo{
+    margin-block-end: 7%;
+  }
+  .boton{
+    scale:80%;
+    margin-block-start: 10%;
+    justify-content: center;
+  }
+  .imagen-resul{
+    width: 70%;
+    justify-content: center;
+  }
+}
+
 
 

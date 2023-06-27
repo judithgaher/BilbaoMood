@@ -1,3 +1,6 @@
+button {
+  cursor: pointer;
+}
 @keyframes slide-in {
   from {
     transform: translateX(-100%);
@@ -199,10 +202,11 @@ button:hover {
   }
   header {
     width: 90%;
-    font-size: 3.7em;
+    font-size: 3em;
     margin-block-start: 5%;
 
   }
+
   .respuesta-1{
     flex-direction: column;
     justify-content: space-between;
@@ -215,15 +219,19 @@ button:hover {
   .boton{
     margin-block-start: 20%;
   }
+   .pregunta {
+    width: 100%;
+  }
 }
 @media (max-width: 480px) {
   .test-01 {
     background-image: url(/imagenes/480/test4Recurso\ 53@2x.png);
   }
- .preguntadera {
+ .pregunta {
     width: 100%;
     font-size: 0.8em;
     margin-block-start: 15%;
+    background-color: antiquewhite;
   
   }
   .pregunta {

@@ -1,3 +1,6 @@
+button {
+  cursor: pointer;
+}
 @font-face {
   font-family: Neulis-black;
   src: url(/fuentes/Neulis-Black.otf);

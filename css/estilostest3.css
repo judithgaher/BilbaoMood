@@ -1,4 +1,6 @@
-
+button {
+  cursor: pointer;
+}
 @keyframes slide-in {
   from {
     transform: translateX(-100%);
@@ -21,7 +23,7 @@
   animation: slide-in 1s ease forwards;
 }
 nav {
-  width: 100%;
+  width: 93%;
   margin-block-start: 4%;
   margin-inline-start: 7%;
 }
