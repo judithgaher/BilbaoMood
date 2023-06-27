@@ -23,8 +23,8 @@ let usuarios = [
       alert("Debes aceptar los términos y condiciones para iniciar sesión.");
       event.preventDefault();
     } else {
-      var username = usernameInput.value;
-      var password = passwordInput.value;
+      let username = usernameInput.value;
+      let password = passwordInput.value;
   
       if (verificarInicioSesion(username, password)) {
         alert("Inicio de sesión exitoso. ¡Bienvenido, " + username + "!");

@@ -236,6 +236,9 @@ span {
   }
 }
 @media (max-width: 480px) {
+  .navegador-inicio {
+    width: 50%;
+  }
   .comienzatest {
     height: 100vh;
     background-image: url(/imagenes/480/indexRecurso\ 47@2x.png);
@@ -280,7 +283,7 @@ span {
 }
 @media (max-width: 320px) {
   .navegador-inicio {
-    width: 100%;
+    width: 50%;
   }
   .horizontal-menu li {
     margin-right: 0px;

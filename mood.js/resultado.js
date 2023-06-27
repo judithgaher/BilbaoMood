@@ -13,51 +13,51 @@ let imagenElement = document.getElementById("imagenResultado");
 
   if (puntos <= 15) {
       mensajeElement.innerHTML = "Película a la vista";
-      submensajeElement.innerHTML=
+      submensajeElement.innerHTML="19.00 HRS - ANTZOKI"
       imagenElement.src = "/imagenes/resultado1.png";
-      imagenElement.alt = "Olé";
+      imagenElement.alt = "Imagen de dos mujeres en el ring";
     }  
     else if ((puntos > 15 && puntos <= 20)) {
       mensajeElement.innerHTML = "Seriaza";
-      submensajeElement.innerHTML=
+      submensajeElement.innerHTML="19.00 HRS - ANTZOKI"
       imagenElement.src = "/imagenes/logo.svg";
-      imagenElement.alt = "Mierka";
+      imagenElement.alt = "Imagen de dos mujeres en el ring";
     } 
     else if ((puntos > 20 && puntos <= 25)) {
       mensajeElement.innerHTML = "Tetro de calle!";
-      submensajeElement.innerHTML=
+      submensajeElement.innerHTML="19.00 HRS - ANTZOKI"
       imagenElement.src = "/imagenes/evento1.jpeg";
-      imagenElement.alt = "Mierka";
+      imagenElement.alt = "Imagen de dos mujeres en el ring";
     } 
     else if ((puntos > 25 && puntos <= 30)) {
       mensajeElement.innerHTML = "Mira una moderna en Okela";
-      submensajeElement.innerHTML=
+      submensajeElement.innerHTML="19.00 HRS - ANTZOKI"
       imagenElement.src = "/imagenes/logo.svg";
-      imagenElement.alt = "Mierka";
+      imagenElement.alt = "Imagen de dos mujeres en el ring";
     } 
     else if ((puntos > 30 && puntos <= 35)) {
       mensajeElement.innerHTML = "Demaio";
-      submensajeElement.innerHTML=
+      submensajeElement.innerHTML="19.00 HRS - ANTZOKI"
       imagenElement.src = "/imagenes/logo.svg";
-      imagenElement.alt = "Mierka";
+      imagenElement.alt = "Imagen de dos mujeres en el ring";
     } 
     else if ((puntos > 35 && puntos <= 40)) {
       mensajeElement.innerHTML= "Ramen Simoyi";
-      submensajeElement.innerHTML=
+      submensajeElement.innerHTML="19.00 HRS - ANTZOKI"
       imagenElement.src = "/imagenes/logo.svg";
-      imagenElement.alt = "Mierka";
+      imagenElement.alt = "Imagen de dos mujeres en el ring";
     } 
     else if ((puntos > 40 && puntos <= 45)) {
       mensajeElement.innerHTML = "Demaio";
-      submensajeElement.innerHTML=
+      submensajeElement.innerHTML="19.00 HRS - ANTZOKI"
       imagenElement.src = "/imagenes/logo.svg";
-      imagenElement.alt = "Mierka";
+      imagenElement.alt = "Imagen de dos mujeres en el ring";
     } 
     else {
       mensajeElement.innerHTML="Concierto de <br> The Covenant + Lodor + Fufu";
       submensajeElement.innerHTML="19.00 HRS - ANTZOKI";
       imagenElement.src = "/imagenes/resultado1.png";
-      imagenElement.alt = "Mierka";
+      imagenElement.alt = "Imagen de dos mujeres en el ring";
     }
 
     localStorage.setItem("puntos", valor);
