@@ -269,6 +269,7 @@ span {
   }
   .empezar-btn {
     font-size: 1em;
+    line-height: 20px;
     width: 50%;
     margin-left: 5%;
   }
@@ -304,8 +305,9 @@ span {
     gap: 10%;
   }
   .empezar-btn {
-    font-size: 1em;
+    font-size: 0.7em;
     width: 50%;
     margin-left: 5%;
+    line-height: 20px;
   }
 }

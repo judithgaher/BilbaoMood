@@ -230,12 +230,28 @@ button:hover {
  .pregunta {
     width: 100%;
     font-size: 0.8em;
-    margin-block-start: 15%;
-    background-color: antiquewhite;
-  
+    margin-block-start: 15%;  
   }
   .pregunta {
     width: 100%;
+  }
+  .respuestas button{
+    width: 150px;
+  }
+  .respuesta-1{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+    gap: 29%;
+  }
+  .respuesta-2{
+  margin-block-start: 2%;
+  }
+  .respuestas {
+    margin-inline-end: 72%;
+  }
+  .boton{
+    scale: 80%;
   }
 }
 @media (max-width: 320px) {

@@ -329,6 +329,11 @@ button {
     justify-content: center;
   }
 }
+@media (max-width: 480px){
+  .boton{
+    scale:60%
+  }
+  }
 
 
 
