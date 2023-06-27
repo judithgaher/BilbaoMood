@@ -107,8 +107,9 @@ nav {
         display: flex;
         flex-direction: row;
         /* background-color: #ef9aff; */
-        width: 91%;
+        width: 95x%;
         justify-content: space-between;
+        align-items: center;
     }
       #resultado-horos{
         display: flex;
@@ -127,7 +128,7 @@ nav {
     flex-direction: column;
     margin-block-start: 2%; 
     /* background-color: #87dbd0; */
-    margin-block-start: 22%;
+    margin-block-start: 15%;
  }
    .fechas{
     width: 100%;
@@ -257,6 +258,7 @@ nav {
     }
     @media (max-width: 480px) { 
       .horoscopo{
+        height: 100vh;
         background-image: url(/imagenes/480/horosRecurso\ 48@2x.png);
       }
       .fechas{

@@ -41,10 +41,10 @@ function obtenerHoroscopo(dia, mes) {
 }
 
 function mostrarFechaHora() {
-  var fechaHora = new Date();
-  var fecha = fechaHora.toLocaleDateString();
-  var hora = fechaHora.toLocaleTimeString();
-  document.getElementById("fechaHora").innerHTML = "Fecha: " + fecha + " <br>Hora: " + hora;
+  let fechaHora = new Date();
+  let fecha = fechaHora.toLocaleDateString();
+  let hora = fechaHora.toLocaleTimeString();
+  document.getElementById("fechaHora").innerHTML = "Hoy es:<br> " + fecha + " <br>y son las:<br> " + hora;
 }
 
 setInterval(mostrarFechaHora, 1000);

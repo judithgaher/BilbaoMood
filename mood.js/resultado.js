@@ -7,47 +7,56 @@ puntos = parseInt(puntos);
 
 
 let mensajeElement = document.getElementById("mensaje");
+let submensajeElement= document.getElementById("submensaje");
 
 let imagenElement = document.getElementById("imagenResultado");
 
   if (puntos <= 15) {
-      mensajeElement.textContent = "Película a la vista";
-      imagenElement.src = "/imagenes/logo.svg";
+      mensajeElement.innerHTML = "Película a la vista";
+      submensajeElement.innerHTML=
+      imagenElement.src = "/imagenes/resultado1.png";
       imagenElement.alt = "Olé";
     }  
     else if ((puntos > 15 && puntos <= 20)) {
-      mensajeElement.textContent = "Seriaza";
+      mensajeElement.innerHTML = "Seriaza";
+      submensajeElement.innerHTML=
       imagenElement.src = "/imagenes/logo.svg";
       imagenElement.alt = "Mierka";
     } 
     else if ((puntos > 20 && puntos <= 25)) {
-      mensajeElement.textContent = "Tetro de calle!";
-      imagenElement.src = "/imagenes/eventos/evento1.jpeg";
+      mensajeElement.innerHTML = "Tetro de calle!";
+      submensajeElement.innerHTML=
+      imagenElement.src = "/imagenes/evento1.jpeg";
       imagenElement.alt = "Mierka";
     } 
     else if ((puntos > 25 && puntos <= 30)) {
-      mensajeElement.textContent = "Mira una moderna en Okela";
+      mensajeElement.innerHTML = "Mira una moderna en Okela";
+      submensajeElement.innerHTML=
       imagenElement.src = "/imagenes/logo.svg";
       imagenElement.alt = "Mierka";
     } 
     else if ((puntos > 30 && puntos <= 35)) {
-      mensajeElement.textContent = "Demaio";
+      mensajeElement.innerHTML = "Demaio";
+      submensajeElement.innerHTML=
       imagenElement.src = "/imagenes/logo.svg";
       imagenElement.alt = "Mierka";
     } 
     else if ((puntos > 35 && puntos <= 40)) {
-      mensajeElement.textContent = "Ramen Simoyi";
+      mensajeElement.innerHTML= "Ramen Simoyi";
+      submensajeElement.innerHTML=
       imagenElement.src = "/imagenes/logo.svg";
       imagenElement.alt = "Mierka";
     } 
     else if ((puntos > 40 && puntos <= 45)) {
-      mensajeElement.textContent = "Demaio";
+      mensajeElement.innerHTML = "Demaio";
+      submensajeElement.innerHTML=
       imagenElement.src = "/imagenes/logo.svg";
       imagenElement.alt = "Mierka";
     } 
     else {
-      mensajeElement.textContent = "Concert en el muelle!";
-      imagenElement.src = "/imagenes/logo.svg";
+      mensajeElement.innerHTML="Concierto de The Covenant + Lodor + Fufu";
+      submensajeElement.innerHTML="19.00 hrs- Antzoki";
+      imagenElement.src = "/imagenes/resultado1.png";
       imagenElement.alt = "Mierka";
     }
 
