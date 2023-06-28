@@ -14,6 +14,7 @@ switch (true) {
     submensajeElement.innerHTML = "Elena López Riera. <br> EN FILMIN";
     imagenElement.src = "/imagenes/resultado2.png";
     submensajeElement.href= "https://www.filmin.es/pelicula/el-agua";
+    submensajeElement.target = "_blank"; 
     imagenElement.alt = "Imagen de un hombre desacansando en una";
     break;
 

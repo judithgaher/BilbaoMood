@@ -1,3 +1,5 @@
+
+
 button {
   cursor: pointer;
 }
@@ -144,6 +146,11 @@ nav {
 #submensaje {
   font-family: Dela;
   font-size: 1.3em;
+  color: #0019f5;
+  text-align: left;
+}
+#submensaje:hover{
+  transform: scale(1.2);
 }
 .boton {
   width: 100%;
