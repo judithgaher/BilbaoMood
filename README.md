@@ -20,5 +20,6 @@ En un futuro podría tener: Playlist recomendadas, Entrevistas y apartado de loc
 Podría implementarse con alguna API para mantener la agenda lo más actualizada posible.
 
 Autora: Judith Gago Hernández. email: gagohernandezj@gmail.com
+Portfolio: https://www.behance.net/judithgago
 
 https://bilbaomood.netlify.app/index.html

@@ -13,7 +13,8 @@ switch (true) {
     mensajeElement.innerHTML = "Película a la vista: <br> EL AGUA";
     submensajeElement.innerHTML = "Elena López Riera. <br> EN FILMIN";
     imagenElement.src = "/imagenes/resultado2.png";
-    imagenElement.alt = "Imagen de un hombre desacansando en una hamaca";
+    submensajeElement.href= "https://www.filmin.es/pelicula/el-agua";
+    imagenElement.alt = "Imagen de un hombre desacansando en una";
     break;
 
   case puntos <= 20:
