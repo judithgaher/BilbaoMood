@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Neulis-bold;
+  src: url(/fuentes/Neulis-ExtraBold.otf);
+}
+
 @keyframes slide-in {
   from {
     transform: translateX(-100%);
@@ -8,7 +13,7 @@
 }
 nav {
   width: 93%;
-  margin-block-start: 4%;
+  margin-block-start: 1%;
   margin-inline-start: 7%;
 }
 .barra {
@@ -129,7 +134,7 @@ nav {
   background-color: #87dbd0;
 }
 .inicio {
-  font-family: "Neulis";
+  font-family: "Neulis-bold";
   font-size: 2em;
   color: white;
   margin-block-end: 4%;

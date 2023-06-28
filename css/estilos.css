@@ -9,6 +9,10 @@ button {
   font-family: Neulis-bold;
   src: url(/fuentes/Neulis-ExtraBold.otf);
 }
+@font-face {
+  font-family: Neulis-regular;
+  src: url(/fuentes/Neulis-Regular.otf);
+}
 
 .navegador-inicio {
   width: 65%;
@@ -30,7 +34,7 @@ button {
 }
 .horizontal-menu li a {
   text-decoration: none;
-  font-family: "Neulis";
+  font-family: Neulis-regular;
   padding: 10px;
 }
 .horizontal-menu li a:hover {

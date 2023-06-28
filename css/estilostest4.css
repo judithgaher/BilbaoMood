@@ -119,7 +119,7 @@ header {
 }
 .respuesta-1 {
   width: 100%;
-  height: 100px;
+  height: 180px;
   display: flex;
   flex-direction: row;
   column-gap: 9%;
@@ -129,7 +129,6 @@ header {
   height: 100px;
   display: flex;
   flex-direction: row;
-  margin-block-start: 8%;
 }
 .respuestas button {
   width: 230px;
