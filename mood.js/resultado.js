@@ -12,8 +12,8 @@ switch (true) {
   case puntos <= 15:
     mensajeElement.innerHTML = "Película a la vista: <br> EL AGUA";
     submensajeElement.innerHTML = "Elena López Riera. <br> EN FILMIN";
-    imagenElement.src = "/imagenes/resultado1.png";
-    imagenElement.alt = "Imagen de dos mujeres en el ring";
+    imagenElement.src = "/imagenes/resultado2.png";
+    imagenElement.alt = "Imagen de un hombre desacansando en una hamaca";
     break;
 
   case puntos <= 20:
