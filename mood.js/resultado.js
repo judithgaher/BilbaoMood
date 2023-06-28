@@ -65,8 +65,6 @@ switch (true) {
     imagenElement.alt = "Imagen de dos mujeres en el ring";
     break;
 }
-
-// Eliminar la variable "puntos" del almacenamiento local
 localStorage.removeItem("puntos");
 
 
