@@ -145,8 +145,8 @@ span {
   }
 }
 .marcado {
-  opacity: 50%;;
- }
+  opacity: 50%;
+}
 
 /* -----------------------------QUERYS--------------------------------------- */
 
@@ -180,17 +180,16 @@ span {
     margin-top: 7%;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px) {
   .comienzatest {
     background-image: url(/imagenes/1024/INDEXRecurso\ 39@2x.png);
     height: auto;
   }
-
 }
 @media (max-width: 768px) {
-  .navegador-inicio{
-   width:100%;
-   margin-inline-start: 20%;
+  .navegador-inicio {
+    width: 100%;
+    margin-inline-start: 20%;
   }
   .comienzatest {
     width: 100%;
@@ -228,8 +227,8 @@ span {
     display: flex;
     flex-direction: column;
   }
-  .empezar-btn{
-    margin-left: 7%; 
+  .empezar-btn {
+    margin-left: 7%;
   }
   .hidden {
     display: none;

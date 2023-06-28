@@ -6,334 +6,329 @@ button {
   src: url(/fuentes/Neulis-ExtraBold.otf);
 }
 @keyframes slide-in {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
+  from {
+    transform: translateX(-100%);
   }
-  .pregunta p {
-    animation: slide-in 1s ease forwards;
+  to {
+    transform: translateX(0);
   }
-  .resp1 {
-    animation: delay 0.2s;
-    animation: slide-in 1s ease forwards;
-  }
-  .resp2 {
-    animation: slide-in 1s ease forwards;
-  }
-  .resp3 {
-    animation: slide-in 1s ease forwards;
-  }
-  nav {
-    width: 93%;
-    margin-block-start: 4%;
-    margin-inline-start: 7%;
-  }
-  .barra {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-  }
-  .mini-logo {
-    width: 80px;
-  }
-  .slide-in-blurred-top {
-    -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
-      both;
-    animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
-  }
-  
-  @-webkit-keyframes slide-in-blurred-top {
-    0% {
-      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-      -webkit-transform-origin: 50% 0%;
-      transform-origin: 50% 0%;
-      -webkit-filter: blur(40px);
-      filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
-      transform: translateY(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-      transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-      filter: blur(0);
-      opacity: 1;
-    }
-  }
-  @keyframes slide-in-blurred-top {
-    0% {
-      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
-      -webkit-transform-origin: 50% 0%;
-      transform-origin: 50% 0%;
-      -webkit-filter: blur(40px);
-      filter: blur(40px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
-      transform: translateY(0) scaleY(1) scaleX(1);
-      -webkit-transform-origin: 50% 50%;
-      transform-origin: 50% 50%;
-      -webkit-filter: blur(0);
-      filter: blur(0);
-      opacity: 1;
-    }
-  }
-  #back {
-    font-family: "Dela";
-    text-align: left;
-    background: none;
-    border: none;
-    width: 80px;
-  }
-  .test-01 {
-    width: 100%;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    background-image: url(/imagenes/resultadoRecurso\ 68@2x.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .contenedor{
-    width:100%;
-    height: 600px;
-    display: flex;
-    flex-direction: row;
-    /* background-color: yellow; */
-  }
-  .texto-resul{
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items: left;
-    width: 50%;
-    padding-block-start: 8%;
-    padding-inline-start: 15%;
-    row-gap: 4%;
-    /* background-color: blue; */
-  }
-  .imagen-resul{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 50%;
-    /* background-color: aqua; */
-    object-fit: fill;
-  }
-  #imagenResultado{
-    width: 80%;
-  }
-  #planazo{
-    font-family: "Dela";
-    color:#0019f5;
-    font-size: 1em;
-  }
-  #mensaje{
-    font-family: Neulis bold;
-    font-size: 3em;
-  }
-  #submensaje{
-    font-family: Dela;
-    font-size: 1.3em;
-  }
-  .boton {
-    width: 100%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-block-start: 5%;
-  }
-  .siguiente-horos {
-    background-color: black;
-    color: var(--backgroundo-color-red);
-    border-radius: 25px;
-    font-family: Dela;
-    font-size: 1em;
-    width: 180px;
-    height: 50px;
-    border: none;
-  }
-  button:hover {
-    transition: 0.4;
-    scale: 115%;
-    transform: rotate(3deg);
-  }
-  .btn {
-    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-      0.5s both;
-    animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
-  }
-  @keyframes scale-in-center {
-    0% {
-      -webkit-transform: scale(0);
-      transform: scale(0);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-      opacity: 1;
-    }
-  }
-  
+}
+.pregunta p {
+  animation: slide-in 1s ease forwards;
+}
+.resp1 {
+  animation: delay 0.2s;
+  animation: slide-in 1s ease forwards;
+}
+.resp2 {
+  animation: slide-in 1s ease forwards;
+}
+.resp3 {
+  animation: slide-in 1s ease forwards;
+}
+nav {
+  width: 93%;
+  margin-block-start: 4%;
+  margin-inline-start: 7%;
+}
+.barra {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.mini-logo {
+  width: 80px;
+}
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
 
-
-  .scale-in-center {
-    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation-delay: 0.3s;
+@-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
   }
-
-@-webkit-keyframes scale-in-center {
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+#back {
+  font-family: "Dela";
+  text-align: left;
+  background: none;
+  border: none;
+  width: 80px;
+}
+.test-01 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-image: url(/imagenes/resultadoRecurso\ 68@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contenedor {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: yellow; */
+}
+.texto-resul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  width: 50%;
+  padding-block-start: 8%;
+  padding-inline-start: 15%;
+  row-gap: 4%;
+  /* background-color: blue; */
+}
+.imagen-resul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 50%;
+  /* background-color: aqua; */
+  object-fit: fill;
+}
+#imagenResultado {
+  width: 80%;
+}
+#planazo {
+  font-family: "Dela";
+  color: #0019f5;
+  font-size: 1em;
+}
+#mensaje {
+  font-family: Neulis bold;
+  font-size: 3em;
+}
+#submensaje {
+  font-family: Dela;
+  font-size: 1.3em;
+}
+.boton {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-block-start: 5%;
+}
+.siguiente-horos {
+  background-color: black;
+  color: var(--backgroundo-color-red);
+  border-radius: 25px;
+  font-family: Dela;
+  font-size: 1em;
+  width: 180px;
+  height: 50px;
+  border: none;
+}
+button:hover {
+  transition: 0.4;
+  scale: 115%;
+  transform: rotate(3deg);
+}
+.btn {
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    0.5s both;
+  animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+}
+@keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.scale-in-center {
+  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-delay: 0.3s;
+}
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
 @keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
 
-
-
-  .roll-in-blurred-right {
-    -webkit-animation: roll-in-blurred-right 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-            animation: roll-in-blurred-right 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-  }
+.roll-in-blurred-right {
+  -webkit-animation: roll-in-blurred-right 0.65s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: roll-in-blurred-right 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
 
 @-webkit-keyframes roll-in-blurred-right {
   0% {
     -webkit-transform: translateX(1000px) rotate(720deg);
-            transform: translateX(1000px) rotate(720deg);
+    transform: translateX(1000px) rotate(720deg);
     -webkit-filter: blur(50px);
-            filter: blur(50px);
+    filter: blur(50px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateX(0) rotate(0deg);
-            transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
     -webkit-filter: blur(0);
-            filter: blur(0);
+    filter: blur(0);
     opacity: 1;
   }
 }
 @keyframes roll-in-blurred-right {
   0% {
     -webkit-transform: translateX(1000px) rotate(720deg);
-            transform: translateX(1000px) rotate(720deg);
+    transform: translateX(1000px) rotate(720deg);
     -webkit-filter: blur(50px);
-            filter: blur(50px);
+    filter: blur(50px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateX(0) rotate(0deg);
-            transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
     -webkit-filter: blur(0);
-            filter: blur(0);
+    filter: blur(0);
     opacity: 1;
   }
 }
-@media (max-width: 1024px){
-  .test01{
+@media (max-width: 1024px) {
+  .test01 {
     align-items: center;
   }
-  .contenedor{
+  .contenedor {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-block-start: 7%;
   }
-  .texto-resul{
+  .texto-resul {
     margin-block-end: 8%;
     padding-inline-start: 0%;
     text-align: center;
     justify-content: center;
     row-gap: 14%;
   }
-  #mensaje{
+  #mensaje {
     font-size: 2em;
   }
-  #submensaje{
+  #submensaje {
     font-size: 1em;
   }
-  #planazo{
+  #planazo {
     margin-block-end: 7%;
   }
-  .boton{
-    scale:80%;
+  .boton {
+    scale: 80%;
     margin-block-start: 10%;
     justify-content: center;
   }
-  .imagen-resul{
+  .imagen-resul {
     width: 70%;
     justify-content: center;
   }
 }
-@media (max-width: 768px){
-  .test01{
+@media (max-width: 768px) {
+  .test01 {
     align-items: center;
   }
-  .contenedor{
+  .contenedor {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-block-start: 7%;
   }
-  .texto-resul{
+  .texto-resul {
     margin-block-end: 8%;
     padding-inline-start: 0%;
     text-align: center;
     justify-content: center;
     row-gap: 14%;
   }
-  #mensaje{
+  #mensaje {
     font-size: 2em;
   }
-  #submensaje{
+  #submensaje {
     font-size: 1em;
   }
-  #planazo{
+  #planazo {
     margin-block-end: 7%;
   }
-  .boton{
-    scale:80%;
+  .boton {
+    scale: 80%;
     margin-block-start: 10%;
     justify-content: center;
   }
-  .imagen-resul{
+  .imagen-resul {
     width: 70%;
     justify-content: center;
   }
 }
-@media (max-width: 480px){
-  .boton{
-    scale:60%
+@media (max-width: 480px) {
+  .boton {
+    scale: 60%;
   }
-  }
-
-
-
+}

@@ -231,7 +231,7 @@ button:hover {
     font-size: 3em;
     width: 75%;
   }
-  .respuesta-1 button{
+  .respuesta-1 button {
     width: 120px;
     margin-block-start: 0%;
   }
@@ -274,9 +274,9 @@ button:hover {
   .boton {
     margin-block-start: 5%;
     scale: 80%;
-    margin-left:0;
+    margin-left: 0;
   }
-  .respuesta-1{
+  .respuesta-1 {
     margin-block-end: 13%;
   }
 }

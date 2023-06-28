@@ -169,7 +169,7 @@ input {
   margin-top: 2%;
 }
 .signup {
-  font-family: 0.8em;
+  font-size: 0.8em;
 }
 #signup-btn {
   background: none;
@@ -218,8 +218,7 @@ input {
     margin-inline-start: 0%;
     margin-block-start: 5%;
   }
-  .container{
+  .container {
     background-position: left;
-
   }
 }

@@ -277,7 +277,7 @@ button:hover {
 .btn:hover {
   transition: 0.4;
   scale: 115%;
-  transform-origin: 50%, 50%;
+  transform-origin: 50%;
   transform: rotate(15deg);
 }
 
@@ -303,37 +303,35 @@ button:hover {
   .test-01 {
     background-image: url(/imagenes/1024/TEST5Recurso\ 38@2x.png);
   }
-  .test-01{
+  .test-01 {
     background-position: bottom;
   }
   .estilo-pregunta {
     font-size: 3em;
   }
-  .btn-compania{
+  .btn-compania {
     font-size: 2.5em;
   }
-  .pregunta{
-    width: 100%
+  .pregunta {
+    width: 100%;
   }
-
 }
 @media (max-width: 768px) {
   .test-01 {
     background-image: url(/imagenes/768/test5Recurso\ 46@2x.png);
   }
-  .pregunta{
-    width: 100%
+  .pregunta {
+    width: 100%;
   }
-  .test-01{
+  .test-01 {
     background-position: bottom;
   }
   .estilo-pregunta {
     font-size: 3em;
   }
-  .btn-compania{
+  .btn-compania {
     font-size: 2.5em;
   }
-
 }
 @media (max-width: 480px) {
   .test-01 {

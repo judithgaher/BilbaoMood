@@ -204,10 +204,9 @@ button:hover {
     width: 90%;
     font-size: 3em;
     margin-block-start: 5%;
-
   }
 
-  .respuesta-1{
+  .respuesta-1 {
     flex-direction: column;
     justify-content: space-between;
     height: 250px;
@@ -216,10 +215,10 @@ button:hover {
   .respuesta-2 {
     margin-block-start: 4%;
   }
-  .boton{
+  .boton {
     margin-block-start: 20%;
   }
-   .pregunta {
+  .pregunta {
     width: 100%;
   }
 }
@@ -227,30 +226,30 @@ button:hover {
   .test-01 {
     background-image: url(/imagenes/480/test4Recurso\ 53@2x.png);
   }
- .pregunta {
+  .pregunta {
     width: 100%;
     font-size: 0.8em;
-    margin-block-start: 15%;  
+    margin-block-start: 15%;
   }
   .pregunta {
     width: 100%;
   }
-  .respuestas button{
+  .respuestas button {
     width: 150px;
   }
-  .respuesta-1{
+  .respuesta-1 {
     flex-direction: column;
     justify-content: space-between;
     height: 190px;
     gap: 29%;
   }
-  .respuesta-2{
-  margin-block-start: 2%;
+  .respuesta-2 {
+    margin-block-start: 2%;
   }
   .respuestas {
     margin-inline-end: 72%;
   }
-  .boton{
+  .boton {
     scale: 80%;
   }
 }
@@ -266,15 +265,13 @@ button:hover {
   .pregunta {
     width: 100%;
   }
-  header{
+  header {
     line-height: 0.8em;
   }
-  .resp{
+  .resp {
     width: 50%;
   }
- 
 }
 .marcado {
-  opacity: 20%;;
- }
- 
+  opacity: 20%;
+}
